@@ -16,11 +16,9 @@ indexes:
 # disqusShortname: "rahul286"
 
 params:
-  AuthorName: "Rahul Bansal"
-  GitHubUser: "rahul286"
-  Subtitle: "Hello World!"
+  Subtitle: "The Tech Community blog!"
   Logo: "https://pbs.twimg.com/profile_images/1808386422/Final-Logo_400x400.jpg"
-  GithubRepoUrl: "https://github.com/rahul286/rahul286.github.io/"
+  GithubRepoUrl: "https://github.com/rtCamp/devilsworkshop.org/"
   Devils:
       rahul.bansal:
           twitter: http://twitter.com/rahul286
