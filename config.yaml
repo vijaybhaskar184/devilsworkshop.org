@@ -1,0 +1,59 @@
+---
+baseurl : "http://devilsworksho.org/"
+MetaDataFormat : "yaml"
+canonifyurls : false
+title : "Devils' Workshop"
+theme : "dw"
+permalinks:
+    page: /:slug/
+    post: /:slug/
+
+indexes:
+   category: "categories"
+   tag: "tags"
+   author: "author"
+
+# disqusShortname: "rahul286"
+
+params:
+  AuthorName: "Rahul Bansal"
+  GitHubUser: "rahul286"
+  Subtitle: "Hello World!"
+  Logo: "https://pbs.twimg.com/profile_images/1808386422/Final-Logo_400x400.jpg"
+  GithubRepoUrl: "https://github.com/rahul286/rahul286.github.io/"
+  Devils:
+      rahul.bansal:
+          twitter: http://twitter.com/rahul286
+          facebook: http://facebook.com/rahulb286
+      arunsathiya:
+           facebook: http://facebook.com/arun.sathiya
+           twitter: http://twitter.com/_vrarun
+menu:
+    primary:
+        - Name: About Me
+          Pre: "<i class='fa fa-fw fa-user'></i>"
+          Url: "/about/"
+        - Name: Blog
+          Pre: "<i class='fa fa-fw fa-bullhorn'></i>"
+          Url: "/post/"
+        - Name: Work
+          Pre: "<i class='fa fa-fw fa-star'></i>"
+          Url: "/work/"
+        - Name: Interviews
+          Pre: "<i class='fa fa-fw fa-microphone'></i>"
+          Url: "/interviews/"
+
+    social:
+        - Name: "Facebook"
+          Pre: "<i class='fa fa-facebook-square'></i>"
+          Url: "https://facebook.com/rahulb286"
+        - Name: "Twitter"
+          Pre: "<i class='fa fa-twitter-square'></i>"
+          Url: "https://twitter.com/rahul286"
+        - Name: "Github"
+          Pre: "<i class='fa fa-github-square'></i>"
+          Url: "https://github.com/rahul286"
+        - Name: "RSS Feed"
+          Pre: "<i class='fa fa-rss-square'></i>"
+          Url: "/index.xml"
+---
