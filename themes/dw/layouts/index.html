@@ -1,0 +1,24 @@
+{{ template "theme/partials/head.html" . }}
+<body>
+
+    <div class="content container">
+
+    <h1>Hello! <i class='fa fa-smile-o'></i></h1>
+    <p>This is my personal site. Thanks for your visit!</p>
+    <p>Feel free to read a blog post below or check links in sidebar on left <i class='fa fa-hand-o-left'></i></p>
+
+
+    <hr/>
+    <p>&nbsp;</p>
+    <h2>Recent Posts</h2>
+
+    <gcse:searchresults-only></gcse:searchresults-only>
+
+    {{ range first 1 .Data.Pages }}
+        <h3 class="posts"><a href="{{ .Permalink }}">{{ .Title }}</a><time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></h3>
+        <p> {{ .Description }} <a href="{{ .Permalink }}"> Read More &rarr; </a></p>
+    {{ end }}
+
+  </div>
+{{ template "theme/partials/sidebar.html" . }}
+{{ template "theme/partials/footer.html" . }}

@@ -1,0 +1,16 @@
+{{ template "theme/partials/head.html" . }}
+<body>
+
+  <div class="content container">
+        <h1>{{ .Title }}</h1>
+
+  <ul class="posts">
+      {{ range .Data.Pages }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+  </ul>
+
+  </div>
+
+{{ template "theme/partials/sidebar.html" . }}
+{{ template "theme/partials/footer.html" . }}
