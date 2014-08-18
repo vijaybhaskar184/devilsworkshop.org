@@ -17,6 +17,7 @@ indexes:
 
 params:
   Subtitle: "The Tech Community blog!"
+  google_cse: "002848651537712603274:gbvyc3qsdd4"
   Logo: "http://devilsworkshop.org/files/2012/02/devils-workshop-logo.png"
   GithubRepoUrl: "https://github.com/rtCamp/devilsworkshop.org/"
   Devils:

@@ -48,15 +48,21 @@ time{
     padding-top: 5px;
 }
 
-.gsc-search-box-tools .gsc-search-box {background: none; border: none;}
-.gsc-search-box-tools .gsc-search-box .gsc-input { padding: 2px 5px }
+/*.gsc-search-box-tools .gsc-search-box {background: none; border: none;}
+.gsc-search-box-tools .gsc-search-box .gsc-input { padding: 2px 5px }*/
+#___gcse_0 .cse .gsc-control-cse,
+#___gcse_0 .gsc-control-cse,
+#___gcse_0 .cse form.gsc-search-box,
+#___gcse_0 form.gsc-search-box,
+#___gcse_0 table.gsc-search-box { padding: 0; margin: 0; border: 0 }
+#___gcse_0 {margin: 5px 0}
 
 /*.cse table.gsc-search-box td.gsc-input,
 table.gsc-search-box td.gsc-input,
 .gsc-search-button {padding: 0; background:none; border: none}
-.gsc-search-button
-.gsc-clear-button {display: none}*/
-.cse .gsc-input {padding: 0; background:none; border: none; font-size: 200%}
+/*.gsc-search-button*/
+.gsc-clear-button {display: none}
+/*.cse .gsc-input {padding: 0; background:none; border: none; font-size: 200%}*/
 
 .logo-circle {    width: 128px; height: 128px;}
 .logo { background: white; padding: 10px}

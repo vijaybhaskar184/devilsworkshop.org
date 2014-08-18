@@ -1,5 +1,5 @@
 <div class="sidebar">
-<a href="/"><img class="logo" src="{{ .Site.Params.Logo }}"/></a>    
+<a href="/"><img class="logo" src="{{ .Site.Params.Logo }}"/></a>
   <div class="container">
     <div class="sidebar-about">
 
@@ -17,7 +17,7 @@
       {{end}}
     </ul>
 
-    <gcse:searchbox-only resultsUrl="/"></gcse:searchbox-only>
+    <gcse:search></gcse:search>
 
     <div class="social-nav">
     {{ range .Site.Menus.social }}

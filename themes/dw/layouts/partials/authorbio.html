@@ -17,7 +17,6 @@
 
 {{else }}
     {{ $current_author := .Title | lower}}
-
     {{ $this_author := index .Site.Params.Devils $current_author }}
 
     <div class="author-bio">
