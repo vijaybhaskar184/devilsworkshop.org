@@ -20,6 +20,8 @@ params:
   google_cse: "002848651537712603274:gbvyc3qsdd4"
   Logo: "http://devilsworkshop.org/files/2012/02/devils-workshop-logo.png"
   GithubRepoUrl: "https://github.com/rtCamp/devilsworkshop.org/"
+  googleplus_publisher: "https://plus.google.com/118442670704550181017/"
+  twitter_handle: "@devils_workshop"
   Devils:
       rahul.bansal:
           twitter: http://twitter.com/rahul286

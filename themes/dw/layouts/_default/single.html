@@ -10,6 +10,8 @@
             <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}  <em>by</em>
                 <a href="/author/{{$current_author}}">{{$current_author}}</a>
             </span>
+            <span class="post-date">Tags: {{range .Params.tags}} <a href="/tags/{{. | urlize }}">{{.}}</a>,{{end}}</span>
+            <span class="post-date">Categories: {{range .Params.categories}} <a href="/categories/{{. | urlize }}">{{.}}</a>,{{end}}</span>    
             {{ .Content }}
             <hr/>
             {{ template "theme/partials/authorbio.html" . }}
