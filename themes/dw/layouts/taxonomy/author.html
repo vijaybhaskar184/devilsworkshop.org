@@ -1,18 +1,20 @@
 {{ template "theme/partials/head.html" . }}
 <body>
+{{ $current_author := .Title | lower}}
+{{ $this_author := index .Site.Params.Devils $current_author }}
 
   <div class="content container">
-        <h1>Posts by {{ .Title }}</h1>
-            {{ $author_name := .Title | lower}}
-            {{ $current_author := index .Site.Params.Devils $author_name }}
-            {{range $key, $val := $current_author }}
-                    {{$key}} => {{ $val }} <br/>
-            {{end}}
-
+        <h1><i class="fa fa-user"></i> {{ with $this_author.realname}} {{.}} {{else}} {{$current_author}} {{end}}</h1>
+        <span class="post-date"><a href="/author/">Back to parent</a></span>
+        <hr/>
+        {{ template "theme/partials/authorbio.html" . }}
+        <hr class="clear"/>
   <ul class="posts">
       {{ range .Data.Pages }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-      {{ end }}
+      {{ if eq .Section "post" }}
+      <li class="clear" ><a style="width:70%" href="{{ .Permalink }}">{{ .Title }}</a><time class="pull-right post-list">{{ .Date.Format "Jan 2, 2006" }}</time></li>
+      {{end}}
+      {{end}}
   </ul>
 
   </div>

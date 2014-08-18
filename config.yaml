@@ -17,15 +17,20 @@ indexes:
 
 params:
   Subtitle: "The Tech Community blog!"
-  Logo: "https://pbs.twimg.com/profile_images/1808386422/Final-Logo_400x400.jpg"
+  Logo: "http://devilsworkshop.org/files/2012/02/devils-workshop-logo.png"
   GithubRepoUrl: "https://github.com/rtCamp/devilsworkshop.org/"
   Devils:
       rahul.bansal:
           twitter: http://twitter.com/rahul286
           facebook: http://facebook.com/rahulb286
+          avatar: http://www.gravatar.com/avatar/a9253565cd7a0a613c1147db0e66e6f0.jpg
       arunsathiya:
+           realname: Arun Sathiya
            facebook: http://facebook.com/arun.sathiya
            twitter: http://twitter.com/_vrarun
+           avatar: http://1.gravatar.com/avatar/78e8e836498a12735cecb435310996fa
+           bio: Blogger at Devils’ Workshop, StrikeBuys. Owns Samsung Galaxy S3 I9300 with CM 11 nightly build. Proud Indian. Needs HSDPA. TVS Alumnus. Learning ECE at SASTRA
+
 menu:
     primary:
         - Name: About Me

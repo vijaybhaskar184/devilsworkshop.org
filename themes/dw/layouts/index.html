@@ -3,20 +3,14 @@
 
     <div class="content container">
 
-    <h1>Hello! <i class='fa fa-smile-o'></i></h1>
-    <p>This is my personal site. Thanks for your visit!</p>
+    <h1>Welcome To Devils' Workshop! <i class='fa fa-smile-o'></i></h1>
+    <p>This blog is now hosted on Github and you can edit any post on this site!</p>
     <p>Feel free to read a blog post below or check links in sidebar on left <i class='fa fa-hand-o-left'></i></p>
-
-
     <hr/>
-    <p>&nbsp;</p>
     <h2>Recent Posts</h2>
 
-    <gcse:searchresults-only></gcse:searchresults-only>
-
-    {{ range first 1 .Data.Pages }}
-        <h3 class="posts"><a href="{{ .Permalink }}">{{ .Title }}</a><time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></h3>
-        <p> {{ .Description }} <a href="{{ .Permalink }}"> Read More &rarr; </a></p>
+    {{ range first 10 .Data.Pages }}
+        <h4 class="posts"><a href="{{ .Permalink }}">{{ .Title }}</a><time class="pull-right post-list">{{ .Date.Format "Jan 2, 2006" }}</time></h4>
     {{ end }}
 
   </div>

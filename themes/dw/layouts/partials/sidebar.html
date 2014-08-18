@@ -1,8 +1,9 @@
 <div class="sidebar">
+<a href="/"><img class="logo" src="{{ .Site.Params.Logo }}"/></a>    
   <div class="container">
     <div class="sidebar-about">
 
-      <a href="/"><img class="logo-circle" src="{{ .Site.Params.Logo }}"/></a>
+
       <h1>{{ .Site.Title }}</h1>
       <p class="lead">
       {{ with .Site.Params.Subtitle }} {{.}} {{end}}

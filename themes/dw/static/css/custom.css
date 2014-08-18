@@ -41,7 +41,7 @@
     padding-top: 1rem;
 }
 
-h3 time{
+time{
     font-size: 75%;
     font-style: italic;
     font-weight: normal;
@@ -58,7 +58,13 @@ table.gsc-search-box td.gsc-input,
 .gsc-clear-button {display: none}*/
 .cse .gsc-input {padding: 0; background:none; border: none; font-size: 200%}
 
-.logo-circle {
-    width: 128px;
-    height: 128px;
-}
+.logo-circle {    width: 128px; height: 128px;}
+.logo { background: white; padding: 10px}
+
+/*.author-bio {background: #f9f9f9; }*/
+.author-bio img.pull-left {margin-right: 20px}
+.author-bio .social-nav a {color: #202020; margin-left: 5px}
+.author-bio .social-nav  {font-size: 25px; margin-top: 2px; line-height: 25px; height: 25px}
+.author-bio h4{margin-top: 0; display: inline-block}
+.author-bio p{font-size: 80%;}
+.clear{clear: both}
