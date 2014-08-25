@@ -64,7 +64,8 @@ function rt_list_authors() {
 
 		// for current author, fetch additioal metadata stored by rtCamp's user-info plugin.
 		// Ignore empty meta_values
-		$extra = $wpdb->get_results( "SELECT meta_key, meta_value FROM $wpdb->usermeta WHERE user_id = " . $author->ID . " AND (meta_key LIKE 'rt_user_%' OR meta_key LIKE 'user_%' OR meta_key = 'googleplus' OR meta_key = 'description') AND meta_value <> '' ", ARRAY_A);
+		$extra = $wpdb->get_results( "SELECT meta_key, meta_value FROM $wpdb->usermeta WHERE user_id = " . $author->ID . " AND (meta_key LIKE 'rt_user_%' OR meta_key LIKE 'user_%' OR meta_key = 'wp_29_rtrs_users_details' OR meta_key = 'description') AND meta_value <> '' ", ARRAY_A);
+
 
 		//loop thorugh keys as we want to print differnt key name
 		foreach ($extra as $ex ){
@@ -98,6 +99,14 @@ function rt_list_authors() {
 							break;
 				case 'description':
 							echo "      bio: "	 		.	str_replace(array("\r", "\n"), ' ', strip_tags($ex['meta_value'])) . "\n";
+							break;
+				//devils workshop author-adsense plugin support			
+				case 'wp_29_rtrs_users_details':
+							$adsense = unserialize($ex['meta_value']);
+							if($adsense['rtrs_pub_id'])
+								echo "      adsense_pub_id:  "	 .	$adsense['rtrs_pub_id'] . "\n";
+							if($adsense['rtrs_slot_id'])
+								echo "      adsense_slot_id: "	 .	$adsense['rtrs_slot_id'] . "\n";
 							break;
 			} //end of switch
 		}//end of inner for loop
