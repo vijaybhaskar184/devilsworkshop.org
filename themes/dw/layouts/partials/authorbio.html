@@ -11,7 +11,7 @@
             {{with $this_author.twitter}}<a href="{{.}}"> <i class="fa fa-twitter-square"></i> </a>{{end }}
             {{with $this_author.github }}<a href="{{.}}"> <i class="fa fa-github-square"></i> </a>{{end}}
         </div>
-        <h4> About {{ with $this_author.realname}} {{.}} {{else}} {{$current_author}} {{end}} </h4>
+        <h4> About {{ with $this_author.display_name}} {{.}} {{else}} {{$current_author}} {{end}} </h4>
         <p>{{$this_author.bio}}</p>
     </div>
 
@@ -26,7 +26,7 @@
             {{with $this_author.twitter}}<a href="{{.}}"> <i class="fa fa-twitter-square"></i> </a>{{end }}
             {{with $this_author.github }}<a href="{{.}}"> <i class="fa fa-github-square"></i> </a>{{end}}
         </div>
-        <h4> About {{ with $this_author.realname}} {{.}} {{else}} {{$current_author}} {{end}} </h4>
+        <h4> About {{ with $this_author.display_name}} {{.}} {{else}} {{$current_author}} {{end}} </h4>
         <p>{{$this_author.bio}}</p>
     </div>
 

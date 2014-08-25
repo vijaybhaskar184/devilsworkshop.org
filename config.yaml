@@ -5,34 +5,15 @@ canonifyurls : false
 title : "Devils' Workshop"
 theme : "dw"
 permalinks:
-    page: /:slug/
-    post: /:slug/
+  page: /:slug/
+  post: /:slug/
 
 indexes:
-   category: "categories"
-   tag: "tags"
-   author: "author"
+  category: "categories"
+  tag: "tags"
+  author: "author"
 
 # disqusShortname: "rahul286"
-
-params:
-  Subtitle: "The Tech Community blog!"
-  google_cse: "002848651537712603274:gbvyc3qsdd4"
-  Logo: "http://devilsworkshop.org/files/2012/02/devils-workshop-logo.png"
-  GithubRepoUrl: "https://github.com/rtCamp/devilsworkshop.org/"
-  googleplus_publisher: "https://plus.google.com/118442670704550181017/"
-  twitter_handle: "@devils_workshop"
-  Devils:
-      rahul.bansal:
-          twitter: http://twitter.com/rahul286
-          facebook: http://facebook.com/rahulb286
-          avatar: http://www.gravatar.com/avatar/a9253565cd7a0a613c1147db0e66e6f0.jpg
-      arunsathiya:
-           realname: Arun Sathiya
-           facebook: http://facebook.com/arun.sathiya
-           twitter: http://twitter.com/_vrarun
-           avatar: http://1.gravatar.com/avatar/78e8e836498a12735cecb435310996fa
-           bio: Blogger at Devils’ Workshop, StrikeBuys. Owns Samsung Galaxy S3 I9300 with CM 11 nightly build. Proud Indian. Needs HSDPA. TVS Alumnus. Learning ECE at SASTRA
 
 menu:
     primary:
@@ -62,4 +43,1390 @@ menu:
         - Name: "RSS Feed"
           Pre: "<i class='fa fa-rss-square'></i>"
           Url: "/index.xml"
+
+params:
+  Subtitle: "The Tech Community blog!"
+  google_cse: "002848651537712603274:gbvyc3qsdd4"
+  Logo: "http://devilsworkshop.org/files/2012/02/devils-workshop-logo.png"
+  GithubRepoUrl: "https://github.com/rtCamp/devilsworkshop.org/"
+  googleplus_publisher: "https://plus.google.com/118442670704550181017/"
+  twitter_handle: "@devils_workshop"
+  Devils:
+    adityakane:
+      first_name: Aditya
+      last_name: Kane
+      display_name: Aditya Kane
+      avatar: http://www.gravatar.com/avatar/fca15f3e2f46825900a93bde4ed2593d?s=256
+      homepage: http://devilsworkshop.org
+      bio: Passionate about technology, books, history, cricket and politics. I like to think I am platform agnostic.    rtCamp Blog Network - Editor -in- Chief
+      twitter: http://twitter.com/adityakane
+      facebook: http://facebook.com/aditya.kane
+      linkedin: http://in.linkedin.com/pub/aditya-kane/14/b11/230
+      gender: male
+      googleplus: https://plus.google.com/u/0/116447136547996635976?rel=author
+    rahul.bansal:
+      first_name: Rahul
+      last_name: Bansal
+      display_name: Rahul Bansal
+      avatar: http://www.gravatar.com/avatar/a9253565cd7a0a613c1147db0e66e6f0?s=256
+      homepage: http://rtCamp.com/
+      twitter: http://twitter.com/rahul286
+      facebook: http://www.facebook.com/rahulb286
+      linkedin: http://in.linkedin.com/in/rahul286
+      bio: I am a geek (wordpress), blogger (tech) &amp; entrepreneur (rtCamp)
+      gender: male
+      googleplus: http://plus.google.com/u/0/114003667240371142699/posts?rel=author
+      github: https://github.com/rahul286
+      wordpress: http://profiles.wordpress.org/rahul286
+      stackexchange: http://stackexchange.com/users/52324/rahul286?tab=accounts
+    himadridimri:
+      first_name: Himadri
+      last_name: Dimri
+      display_name: Himadri Dimri
+      bio: Editor - rtBlogs Network
+    Swati:
+      display_name: Swati
+      avatar: http://www.gravatar.com/avatar/5a18448fcee8c055ebcdc491410d9c6c?s=256
+    sauravjit:
+      first_name: Sauravjit
+      last_name: Singh
+      display_name: sauravjit
+      avatar: http://www.gravatar.com/avatar/b77ae919d25ec926dbeaf139da1df864?s=256
+      homepage: http://www.rtcamp.com
+      bio: An Engineer, Blogger, Photographer who loves Coffee, Driving, Apple &amp; iPhone ♥
+      twitter: http://www.twitter.com/sauravjit
+      facebook: http://www.facebook.com/Sauravjit
+      linkedin: http://in.linkedin.com/pub/sauravjit-singh/24/950/bb8
+      gender: male
+      location: New Delhi
+      googleplus: https://plus.google.com/u/0/103573380608083888198?rel=author
+    vibin:
+      first_name: Vibin
+      last_name: Reddy
+      display_name: Vibin
+      avatar: http://www.gravatar.com/avatar/ea7d161eeea961f1f244e39b2d240809?s=256
+      homepage: http://vibinreddy.me
+      bio: Mac, blogging, Android, UI/web design, programming, coffee, engineering. In descending order.     Reach me at vibin.reddy@rtcamp.com.
+      gender: male
+      location: India
+      twitter: http://twitter.com/vibin_r
+      facebook: http://facebook.com/vibinreddy
+      googleplus: https://plus.google.com/118076870928148333830?rel=author
+    deepak.jain@rtcamp.com:
+      first_name: Deepak
+      last_name: Jain
+      display_name: Deepak Jain
+      avatar: http://www.gravatar.com/avatar/3a5dde7b9a06f990a18248fbf543fde1?s=256
+      homepage: http://www.mobilegyaan.com
+      bio: Deepak Jain is passionate about technology and mobile phones. He is the founder &amp; executive editor at Mobile Gyaan and Editor-at-Large of this blog.
+      twitter: http://twitter.com/djain1989
+      facebook: http://www.facebook.com/djain1989
+      linkedin: http://in.linkedin.com/in/djain1989
+      gender: male
+      googleplus: https://plus.google.com/111824678731767203494/
+    ankitdas123:
+      first_name: Ankit
+      last_name: Das
+      display_name: Ankit Das
+      avatar: http://www.gravatar.com/avatar/ac154f14cca815e12d354fed740c62b9?s=256
+      homepage: http://www.ankitdas.com
+    arunsathiya:
+      first_name: Arun
+      last_name: Sathiya
+      display_name: Arun Sathiya
+      avatar: http://www.gravatar.com/avatar/78e8e836498a12735cecb435310996fa?s=256
+      homepage: http://www.strikebuys.com
+      bio: Blogger at Devils' Workshop, StrikeBuys. Owns Samsung Galaxy S3 I9300 with CM 11 nightly build. Proud Indian. Needs HSDPA. TVS Alumnus. Learning ECE at SASTRA.
+      gender: male
+      location: Madurai, India
+      linkedin: http://in.linkedin.com/pub/arun-sathiya/39/759/6b9
+      twitter: http://twitter.com/_vrarun
+      facebook: http://facebook.com/arun.sathiya
+      googleplus: https://plus.google.com/+ArunSathiya/posts
+    denharsh:
+      first_name: Harsh
+      last_name: Agarwal
+      display_name: Harsh Agarwal
+      homepage: http://ShoutMeTech.com
+      bio: Harsh writes at ShoutMeTech - India's upcoming Tech blog.
+      gender: male
+      location: New Delhi
+      twitter: http://Twitter.com/ShoutMeTech
+      facebook: http://facebook.com/ShoutMeTech
+      googleplus: https://plus.google.com/b/107884965969753203454/107884965969753203454/posts
+    ruchi:
+      first_name: Ruchi
+      last_name: Parikh
+      display_name: Ruchi
+      avatar: http://www.gravatar.com/avatar/d061038d37381672bd1247e82d5f3ee0?s=256
+      homepage: http://wphostingdiscount.com/
+      bio: Editor in Chief at Shoutmeloud.com Blog Network
+    huzaifadarbar:
+      first_name: Huzaifa
+      last_name: Darbar
+      display_name: Huzaifa Darbar
+      avatar: http://www.gravatar.com/avatar/1963f198ce37c1c79c61d57764780fb6?s=256
+      homepage: http://www.darbarwebs.com/
+      bio: I am a Web Designer, CSS expert and love WordPress
+    richiesajan:
+      first_name: Richie
+      last_name: S
+      display_name: Richie S
+      avatar: http://www.gravatar.com/avatar/84fbea6382c1d85e725bdb94c0cabdbf?s=256
+      homepage: http://techwithric.com/
+      bio: Richie blogs on topics ranging from softwares, programming, web-design, start-ups and random thoughts! View his blog at techwithric.com. Follow him on twitter @techwithric
+    sahil:
+      first_name: Sahil
+      last_name: Malhan
+      display_name: Sahil Malhan
+      avatar: http://www.gravatar.com/avatar/28c3a4388ede826b2801941d29037c8e?s=256
+      homepage: http://www.techtickle.com
+      bio: A part-time blogger who loves learning new things.
+    84productions:
+      first_name: Gaganpreet
+      last_name: Singh
+      display_name: CreativeBloggingIdeas
+      avatar: http://www.gravatar.com/avatar/a94263bb5abad97bd32cc7d093999693?s=256
+      homepage: http://www.creativebloggingideas.com
+      bio: This is Gaganpreet Singh, who gives SEO Training in Chandigarh and writes on Blogging and Adsense at CreativeBloggingIdeas
+    shradha:
+      first_name: Shradha
+      last_name: Rao
+      display_name: Shradha Rao
+      avatar: http://www.gravatar.com/avatar/c514595fdc53be50d80e994af3061bfb?s=256
+      homepage: http://www.cultaffair.com
+      bio: Dripping with words, thirsty for creativity, hungry for art!
+      twitter: http://twitter.com/shradharao
+    adixit:
+      first_name: Anshul
+      last_name: Dixit
+      display_name: Anshul
+      avatar: http://www.gravatar.com/avatar/b441388f8886b8c84b89cce5b390362f?s=256
+      homepage: http://www.knowledgehub.co.in/
+      bio: Anshul Dixit is the founder of Knowledge Hub- a blog to spread general awareness and bust online scams and myths.
+      gender: male
+      location: India
+      twitter: https://twitter.com/#!/anshuldixit
+      facebook: http://www.facebook.com/ansh
+      googleplus: https://plus.google.com/114475098546112308626/about
+    omkarjoglekar:
+      first_name: Omkar
+      last_name: Joglekar
+      display_name: Omkar Joglekar
+      avatar: http://www.gravatar.com/avatar/db534d458deef5ac93ce0b66012575c5?s=256
+      bio: I love reading tech blogs and writing about gadgets and useful software.
+      twitter: http://twitter.com/omyaa
+      facebook: http://www.facebook.com/omkar.joglekar
+    hammad:
+      display_name: hammad
+      avatar: http://www.gravatar.com/avatar/fb16f0e35170f0b3e0882f50ecb28503?s=256
+      homepage: http://www.itechmax.com
+      bio: I am a part time blogger who like to review things and web services that are valuable to my readers.
+    srivathsan:
+      first_name: Srivathsan
+      last_name: G.K
+      display_name: srivathsan
+      avatar: http://www.gravatar.com/avatar/8b1a993384b92b97272707475f69e8df?s=256
+      bio: He Blogs about interesting mobile apps, latest Gadgets and Mobile Phones  at MobiGizmos.
+    rajeelkp:
+      display_name: rajeelkp
+      avatar: http://www.gravatar.com/avatar/1788bc342e6fef564ae74dfc94138608?s=256
+      homepage: http://www.donofweb.com
+      bio: Rajeel is a Teen boy who loves Computers, Internet and other tech stuff. He is in madly love with them and can't stay away from   writing about them.   He writes about them in his blog  Don of Web .    Oh ! He is a friendly person too, Don't forget to poke him in  Facebook too .
+      linkedin: http://in.linkedin.com/pub/rajeel-kp/16/427/2a4
+      twitter: http://www.twitter.com/rajeelkp
+      facebook: http://www.facebook.com/rajeel.kp
+    himanshuyadav:
+      first_name: Himanshu
+      last_name: Yadav
+      display_name: himanshuyadav
+      avatar: http://www.gravatar.com/avatar/a7a94d0a51e8496197530c3233f87435?s=256
+      homepage: http://www.blogtechnika.com
+      bio: Professional blogger who loves writing about new web apps and tools.
+    Gautam:
+      first_name: Gautam
+      last_name: Gupta
+      display_name: Gautam
+      avatar: http://www.gravatar.com/avatar/b0810422cbe6e4eead4def5ae7a90b34?s=256
+      homepage: http://gaut.am/
+      bio: Gautam has a passion for coding and blogging.
+      gender: male
+      location: Gurgaon
+      twitter: http://twitter.com/TheGautamGupta
+      facebook: http://www.facebook.com/TheGautamGupta
+      googleplus: https://plus.google.com/102197516827605528786
+    xphunt3r:
+      first_name: Anwar
+      last_name: Hussain
+      display_name: xphunt3r
+      homepage: http://hubgeek.com
+      bio: My name is Anwar Hussain known as ‘Xphunt3r’ in world of internet and writes about Internet, Computer tips and tricks, wordpress, blogspot, gadget, news and events, software, games and many more.
+    vivek.jain:
+      first_name: Vivek
+      last_name: Jain
+      display_name: Vivek Jain
+      avatar: http://www.gravatar.com/avatar/fa2ba7db00693663d8ef49f3ffc09434?s=256
+      twitter: https://twitter.com/vivekvick
+      facebook: http://www.facebook.com/vick717
+      linkedin: http://in.linkedin.com/in/vivek717
+      bio: WordPress lover, avid reader and BDM @rtCamp.
+      gender: male
+      googleplus: https://plus.google.com/105493333077983987139/posts
+    sidduz:
+      first_name: Siddartha
+      last_name: Thota
+      display_name: Siddartha
+      avatar: http://www.gravatar.com/avatar/b34d7531b803eb552a88785100545135?s=256
+      homepage: http://www.gadgetcage.com/
+      bio: Siddartha is a part-time blogger, freelancer with over 3 years experience in Blogging. He Blogs at GadgetCage. His interests are Blogging, Reading, Coding, Testing, Freelancing, WP, SEO and SMO addict.
+    rishabhagarwal:
+      first_name: Rishabh
+      last_name: Agarwal
+      display_name: Rishabh
+      avatar: http://www.gravatar.com/avatar/4c92efd1d83ce0034f608a6997fb79ac?s=256
+      homepage: http://www.techylabs.com
+      bio: An engineer by profession and a web designer by choice. He is a linux enthusiast
+    umeshmaharaj:
+      first_name: Umesh
+      last_name: Katkar
+      display_name: Umesh Katkar
+      avatar: http://www.gravatar.com/avatar/4c6b4215e28303d91e0858650f6d9e64?s=256
+      homepage: http://bloggertowp.org/
+    nitun.lanjewar:
+      first_name: Nitun
+      last_name: Lanjewar
+      display_name: Nitun Lanjewar
+      avatar: http://www.gravatar.com/avatar/d2e4d24377e48042fa32c364f9bbe76a?s=256
+      homepage: http://rtcamp.com
+      bio: Working with rtCamp solutions, Product Head for Blogger to WordPress migration.
+      twitter: http://twitter.com/nitullanjewar
+      facebook: http://www.facebook.com/nitun.lanjewar
+      linkedin: http://in.linkedin.com/in/nitun24
+      gender: male
+      wordpress: http://profiles.wordpress.org/nitunlanjewar/
+    himanshukalra1995:
+      first_name: Himanshu
+      last_name: kalra
+      display_name: TooYoungGeek
+      avatar: http://www.gravatar.com/avatar/c603cefc27361f1ea72377de6403a101?s=256
+      homepage: http://scraaspirants.co.cc
+      bio: A 14-year old Geek!♫♫♫ Finding and sharin' the best of the internet!
+    akshayraje:
+      first_name: Akshay
+      last_name: Raje
+      display_name: Akshay
+      avatar: http://www.gravatar.com/avatar/54ace5526b61e5bf1aaf7de469e0eb47?s=256
+      homepage: http://webdlabs.com
+      bio: Hi, My name is Akshay Raje. I am a self tought freelance web designer and developer. I love travel and am a great movie buff too. This blog is about my projects and experiments with web technologies.
+    vaibhavkanwal:
+      first_name: Vaibhav
+      last_name: Kanwal
+      display_name: Vaibhav Kanwal
+      homepage: http://programmingkid.com
+      bio: Self Confessed Geek, Programmer, Web Developer, Blogger    http://vaibhavkanwal.com
+    prasadr:
+      first_name: Prasad
+      last_name: Rao
+      display_name: prasadr
+      bio: Love sports , music , reading books &amp; chilling with friends !
+    tushonline:
+      first_name: Tushar
+      last_name: Tajane
+      display_name: Tushar Tajane
+      avatar: http://www.gravatar.com/avatar/5d7682be7836e0c1e954246f4f28d6bf?s=256
+      homepage: http://techzoom.org
+      bio: an Artisan and a Technocrat! I write about latest technology, gadgets, iPhone etc on my blog TechZoom
+    everblogger:
+      display_name: Kranthi Kiran
+      bio: Geek, SEO expert, Designer, Hard-core Programmer, Entrepreneur, (Ethical) Hacker and a Freelancer who is passionate about BLOGGING and aspires to be a civil servant.
+    pkarun:
+      display_name: pkarun
+      avatar: http://www.gravatar.com/avatar/da51b068d0a549356f7a027ae08dbdbb?s=256
+      homepage: http://www.ashout.com/
+    Prateeks:
+      display_name: Prateek
+      avatar: http://www.gravatar.com/avatar/dc88e5517fe559ebfc1504da54ce2cb9?s=256
+      homepage: http://gohi-tech.blogspot.com
+    ripe:
+      display_name: ripe
+      bio: Ripe aka renjith is just another web-a-holic whose keen interests include  blogging, travelling and photography.
+    jeyanthan:
+      first_name: Jeyanthan
+      last_name: I
+      display_name: Jeyanthan
+      avatar: http://www.gravatar.com/avatar/2b43326cd7771b8432dc102871831663?s=256
+      homepage: http://www.symposiumz.net/
+      bio: A FOSS Enthusiast. Reach me here www.ijeyanthan.com
+    prateekkk:
+      display_name: prateekkk
+      homepage: http://www.thetechnoclub.com
+    arjunskumar47:
+      first_name: Arjun
+      last_name: S Kumar
+      display_name: Arjun S Kumar
+      avatar: http://www.gravatar.com/avatar/59d9226bb13185d8e1d6251e23edbf9f?s=256
+      homepage: http://arjunsk.in
+    ankitagarwal:
+      display_name: ankitagarwal
+      avatar: http://www.gravatar.com/avatar/2fb6ac235e952a951444a8881f8f884c?s=256
+      homepage: http://gettingmoneywise.com
+      bio: Ankit is a research analyst and an avid social media enthusiast. He blogs at www.gettingmoneywise.com
+    alok_chaudhari:
+      first_name: Alok
+      last_name: Chaudhari
+      display_name: Alok Chaudhari
+      homepage: http://www.freewaresnbeta.com
+      bio: Student @BHU and a dabbler and blogging is just another venture.
+    prasad.nevase@rtcamp.com:
+      first_name: Prasad
+      last_name: Nevase
+      display_name: Prasad
+      avatar: http://www.gravatar.com/avatar/0e5aa630f695ae845bffcba5ecc8f57c?s=256
+      bio: Managing &amp; directing the projects &amp; team to best meet the objectives.
+      twitter: https://twitter.com/prasad_nevase
+      facebook: http://www.facebook.com/prasad.nevase
+      linkedin: http://in.linkedin.com/in/prasadnevase
+      gender: male
+    vishroxx:
+      first_name: Vishwanath
+      last_name: dalvi
+      display_name: Vishwanath dalvi
+      avatar: http://www.gravatar.com/avatar/5b1140708fab49c1b1ee3fe96429b9c5?s=256
+      homepage: http://dailypocketmoneyfinder.blogspot.com
+      bio: Hi World!! I am Vishwanath dalvi,pursuing  B.E in IT.   " Engineer as profession and blogger as passion ",currently living in Mumbai, India. I am 21++ addicted to Internet,Computer networks,Blogging,Hacking,Cracking and Code extractor.   I love to share..  Sharing is Caring.
+    saorabh.kumar@rtcamp.com:
+      first_name: Saorabh
+      last_name: Kumar
+      display_name: Saorabh Kumar
+      avatar: http://www.gravatar.com/avatar/2fe6ed783c9ec8acf890e45b1a4acfb5?s=256
+      bio: The ones who passionate about wordpress/buddypress themes.
+      twitter: http://twitter.com/saorabhkr
+      facebook: http://www.facebook.com/saorabhkr
+      linkedin: http://in.linkedin.com/in/saorabhkr
+    Sriganesh:
+      display_name: Sriganesh
+      homepage: http://www.symposiumz.net
+    adityaapte2001:
+      display_name: Aditya Apte
+      homepage: http://
+    rajeevkumar:
+      first_name: Rajeev kumar
+      last_name: singh
+      display_name: Rajeev kumar
+      avatar: http://www.gravatar.com/avatar/568b221ce2ee23d46fa0b6bb437dcc3e?s=256
+      homepage: http://rajeevkumarsinghblog.blogspot.com
+      bio: A Tech enthusiast, studying CSE.
+      gender: male
+      location: Shimoga
+      twitter: https://twitter.com/bluelotusrajeev
+      facebook: https://www.facebook.com/profile.php?id=1485578010
+      googleplus: https://plus.google.com/u/0/108802821996150936066
+    pravinkenator:
+      first_name: Praveen
+      last_name: Krishnakumar
+      display_name: Praveen
+      avatar: http://www.gravatar.com/avatar/5e8983e26783117e705f56e782dc2427?s=256
+      homepage: http://
+    shilpa:
+      first_name: Shilpa
+      last_name: TM
+      display_name: Shilpa TM
+      avatar: http://www.gravatar.com/avatar/32bbda94b8029159867ef0095fb8025f?s=256
+      bio: A tech blogger, an enthusiastic problem solver, love reading, interested in hacking.  I also enjoy listening to soft music apart from the technical stuff. Follow me on twitter - @tmshilpa
+      gender: female
+      location: Chennai, India
+      twitter: https://twitter.com/tmshilpa
+      facebook: https://www.facebook.com/shilpa.tm.7
+      googleplus: https://plus.google.com/u/0/117523233185033081204?rel=author
+    umesh.nevase@rtcamp.com:
+      first_name: Umesh
+      last_name: Nevase
+      display_name: umesh.nevase@rtcamp.com
+      avatar: http://www.gravatar.com/avatar/c98a518aaffb3b4df2d7634b6b8f477a?s=256
+      bio: I like Wordpress. Developed many Wordpress themes and plugins.
+      twitter: http://twitter.com/umeshnevase
+      facebook: http://www.facebook.com/umesh.nevase
+      linkedin: http://in.linkedin.com/pub/umesh-nevase/22/643/548
+      gender: male
+      github: https://github.com/umeshnevase
+      wordpress: http://wordpress.org/support/profile/umeshnevase
+      stackexchange: http://wordpress.stackexchange.com/users/9279/user9279
+      googleplus: https://plus.google.com/u/0/114084114540466697534/
+    youngistaan:
+      first_name: Deepak
+      last_name: Malviya
+      display_name: Deepak Malviya
+      avatar: http://www.gravatar.com/avatar/40bfbc03ecc12d0a2581665cbef9d927?s=256
+      homepage: http://youngistaan.org
+    gaurav:
+      first_name: Gaurav
+      last_name: Agrawal
+      display_name: Gaurav
+      homepage: http://www.gauravshome.co.nr
+      bio: I am Gaurav Agrawal, Pursuing B. Tech (I.T.) in VIT, Vellore.   I have great interest in this ever growing World of Technology and would like to share information and updates to all Readers at Devils Workshop.
+    kushagra:
+      first_name: Kushagra
+      last_name: Agarwal
+      display_name: Kushagra Agarwal
+      avatar: http://www.gravatar.com/avatar/8df856ecd07f7079cc1deb626b357ee0?s=256
+      homepage: http://devilsbackyard.com
+      bio: I love blogging and designing.  My inspiration for all things comes from gaming. :)
+    ricky709:
+      first_name: Ricky
+      last_name: Shah
+      display_name: Ricky
+      avatar: http://www.gravatar.com/avatar/fb9112ec957ecf3ac67cac9d5e7d2717?s=256
+      homepage: http://withwindows.com
+      bio: Ricky is a professional blogger who covers news on  Windows Phone and Apple. Follow his blog to get latest updates in Windows Phone and Apple community.
+    provamsi:
+      display_name: pro-vamsi
+      homepage: http://www.india365.org
+      bio: This article is submitted by Vamsi alias Pro-Vamsi, the author of India 365. He has been blogging for the past 3 years.
+    3rdbrain:
+      first_name: Hammad
+      last_name: Memon
+      display_name: 3rdbrain
+      avatar: http://www.gravatar.com/avatar/6b22fb5a85d9115b5e4e282e97f2e560?s=256
+      homepage: http://www.activr.com
+    technolizard:
+      first_name: Simrandeep
+      last_name: Singh
+      display_name: Simrandeep
+      avatar: http://www.gravatar.com/avatar/5ce108f9fa495cb6028ad90f41495d3e?s=256
+      homepage: http://www.tricksdaddy.com
+    bhupendra:
+      display_name: bhupendra
+      avatar: http://www.gravatar.com/avatar/f87a48d83db49377fdcfb3727a97a035?s=256
+      bio: He is a passionate business analyst. He is the CEO of InRev Systems, owner of Buzzom.  He views Business Analytics as a major functional department in all companies in the line of HR, Marketing or IT.
+    sdsh:
+      first_name: Saeed
+      last_name: Shahab
+      display_name: Saeed Shahab
+      avatar: http://www.gravatar.com/avatar/e6d65a9d712b3b108ab8bc506ab12acb?s=256
+      homepage: http://saeedshahab.com
+      bio: He is a self-starter part-time blogger, cricket-crazy and a learner.
+      gender: male
+    urbngeek:
+      first_name: Abhishek
+      last_name: Biswal
+      display_name: Abhishek Biswal
+      homepage: http://urbngeek.blogspot.com
+      bio: Abhishek Is a Tech Blogger, Tech Enthusiast, Hardcore Gamer and a Pure Geek! He writes at http://urbngeek.blogspot.com
+    worldofquest:
+      display_name: worldofquest
+      avatar: http://www.gravatar.com/avatar/3acf9ef4f7fb086dbe26df39d1236bdc?s=256
+      homepage: http://www.teentechguru.com
+      bio: I am Dinesh Verma from Delhi, India. Blogging is my passion and Teen Tech Guru is my platform.
+    gourav16:
+      first_name: Gourav
+      last_name: Jain
+      display_name: Gourav
+      homepage: http://blogliving.org
+      bio: He is Gourav Jain aka Gicci or Geeky. He writes at BlogLiving.org and the topics which he like to blog about is WordPress, Tips, SEO, Money-Making etc
+    manish_songirkar:
+      first_name: Manish
+      last_name: Songirkar
+      display_name: Manish Songirkar
+      avatar: http://www.gravatar.com/avatar/28afeda83607654042aa8723a99965a4?s=256
+      bio: Passionate web designer, leading one of the best WordPress talents at rtCamp.
+      twitter: http://twitter.com/ManishSongirkar
+      facebook: http://www.facebook.com/manishsongirkar36
+      linkedin: http://www.linkedin.com/pub/manish-songirkar/17/2a6/805
+    Manpreet Singh:
+      display_name: Manpreet Singh
+      avatar: http://www.gravatar.com/avatar/9bb9488230da3d378641af71dce259fa?s=256
+      homepage: http://www.cyberspirits.net/
+    vv1987:
+      first_name: Venkatesh
+      last_name: vedhakumar
+      display_name: Venkatesh Vedhakumar
+      homepage: http://www.wehackers.blogspot.com
+      bio: http://www.google.com/profiles/vv1987
+    bhavkam:
+      first_name: Bhavya
+      last_name: kamboj
+      display_name: Bhavya kamboj
+      homepage: http://www.devilsworkshop.org
+      bio: Bhavya Kamboj is a science student and is enthusiastic about latest tech updates. He is a DW fan since 2 years.
+    suhastech:
+      first_name: Suhas
+      last_name: Sharma
+      display_name: Suhas
+      avatar: http://www.gravatar.com/avatar/915fefb3eed488981f6f17441bde49da?s=256
+      homepage: http://www.suhastech.com
+      bio: He is a 16 year old geek. His hobbies are trekking, Table tennis, Blogging about technology.
+    gajanan.sapate:
+      first_name: Gajanan
+      last_name: Sapate
+      display_name: Gajanan Sapate
+      avatar: http://www.gravatar.com/avatar/3c846007e7666e96f9bce58443afffbd?s=256
+      homepage: http://rtpanel.com
+      bio: Marketing Enthusiast@ rtCamp. Love Blogging :)
+      twitter: http://www.twitter.com/gajanansapate
+      facebook: http://www.facebook.com/gajanan.sapate
+      linkedin: http://www.linkedin.com/in/gajanansapate
+      gender: male
+    shyamb17:
+      first_name: Shyam
+      last_name: Mudliar
+      display_name: Shyam Mudliar
+      homepage: http://shyam17.com
+    amol:
+      first_name: Amol
+      last_name: Wagh
+      display_name: Amol Wagh
+      avatar: http://www.gravatar.com/avatar/0daea231a2a202dd6c2c6dbf5c8f22d1?s=256
+      homepage: http://www.seobloggingtips.com
+      bio: I am an ethical hacker, giving out tips for aspiring ethical hackers in the world. Besides I am also interested in SEO, Animation &amp; blogging.    I also write columns on Ethical Hacking &amp; Blogging for Times of India in my city plus named Nashik Times.    Following are my blogs -  www.seobloggingtips.com  www.hackersenigma.com  www.digitalconqurer.com     You can know more about me at http://www.google.com/profiles/amolwagh333
+    pradeep910:
+      display_name: Pradeep
+      avatar: http://www.gravatar.com/avatar/246e09c9fa5cff54086142c8a9b04f75?s=256
+      bio: Works with rtCamp as a web developer. Likes to work on Wordpress themes, Thesis..
+    srinivas:
+      first_name: Srinivas
+      last_name: Rajkumar
+      display_name: Srinivas Rajkumar
+      avatar: http://www.gravatar.com/avatar/53482d59bea9f67587a864c7d555aa11?s=256
+      homepage: http://www.bookbing.org
+      bio: Medical Student,Blogger,Linux User.I'd love to try anything new! I own a Powerpoint Search Engine
+    jaikishanmishra:
+      first_name: Jai
+      last_name: Mishra
+      display_name: Jai Kishan Mishra
+      bio: Student - Blogger - Tech Geek
+      Facebook:  http://www.facebook.com/jaikishanmishra
+    Abhishekie:
+      display_name: Abhishek Jain
+      avatar: http://www.gravatar.com/avatar/29d3cb156b05c30a27ec789fd2d5523e?s=256
+      homepage: http://abhishekjain.co.cc
+    praveen:
+      first_name: Praveen
+      last_name: Kumar
+      display_name: praveen
+      avatar: http://www.gravatar.com/avatar/42c5855b69b000f146d2d9da738fd71a?s=256
+      homepage: http://praveenkumarg.blogspot.com
+      bio: I am pursuing my B.E Electronics &amp; Instrumentation Engg.I am blog addicted.I prefer staying updated with latest Geek Stuffs.
+    simplyakm:
+      display_name: rcanblog
+      homepage: http://rcanblog.com
+      bio: http://rcanblog.com
+    Gaurish Sharma:
+      first_name: Gaurish
+      last_name: Sharma
+      display_name: Gaurish Sharma
+      avatar: http://www.gravatar.com/avatar/cb0b42e452cd13d469565a23a8abe441?s=256
+      homepage: http://www.gaurishsharma.com
+      bio: Gaurish Sharma is an Information Technology student. He aims to be a techie. He is Interested in Hardcore programming &amp; other tech jobs, works on computer for long hours &amp; sleeps on internet. Recently he has been bitten by the openSource &amp; Linux bug. Too likes reading books, newspapers, listing to music, photography &amp; gardening. He has a strong urge to learn new things and is very curious in general.
+    murugappan:
+      first_name: Murugappan
+      last_name: M
+      display_name: Murugappan
+      avatar: http://www.gravatar.com/avatar/cfe060db167fcb79a0204a073622b70e?s=256
+      homepage: http://chaaps.com
+    anterpreet:
+      first_name: Anterpreet
+      last_name: Singh
+      display_name: Anterpreet
+      avatar: http://www.gravatar.com/avatar/d84a127d14d31c2c3fb8c57bdaac66cf?s=256
+      homepage: http://techuro.com
+      bio: Anterpreet Singh from Punjab(IN)
+    umeshmahato:
+      first_name: umesh
+      last_name: mahato
+      display_name: umesh
+      avatar: http://www.gravatar.com/avatar/0876785ccfb7ac956ae27a49e3a7e5ba?s=256
+      bio: A B. Tech student, lives in bhubaneswar, orissa. From Jamshedpur..  Loves music basically heavy and death metal..  Interested in open source applications and coding..  Hoping a career in software development or multimedia designing field..
+    sneha:
+      first_name: Sneha
+      last_name: Mutha
+      display_name: Sneha Mutha
+      avatar: http://www.gravatar.com/avatar/219c835f030cd138d0fba772047832d4?s=256
+      bio: I am a Web Designer and love to create Creative presentations of content....:)
+      facebook: http://www.facebook.com/profile.php?id=100000774921020
+      gender: female
+    gouravkr:
+      first_name: Gourav
+      last_name: Kumar
+      display_name: Gourav
+      avatar: http://www.gravatar.com/avatar/2eb6bfdf16dbfd201a156cf05568b140?s=256
+      homepage: http://digisheets.in
+      bio: Currently studying Chartered Accountancy, has been crazy about computers and gadgets from the age of 12
+      gender: male
+      location: Kolkata
+      linkedin: http://www.linkedin.com/profile/view?id=87219290&trk
+      twitter: http://www.twitter.com/gouravkr
+      facebook: http://www.facebook.com/gourav
+    devi:
+      first_name: Devi
+      last_name: Mahapatra
+      display_name: Devi Mahapatra
+      avatar: http://www.gravatar.com/avatar/c72358ac49151bc377158fd02c62b1ce?s=256
+      homepage: http://techyeh.com/
+      bio: Crazy Sexy Cool Guy
+      gender: male
+      linkedin: http://in.linkedin.com/in/devi4u/
+      twitter: http://twitter.com/devi4u
+      facebook: http://www.facebook.com/devi4u
+      googleplus: http://plus.google.com/102883736681914660926
+    idlemindedgeeks:
+      first_name: Murugappan
+      last_name: M
+      display_name: Murugappan
+      avatar: http://www.gravatar.com/avatar/ee568fc382434b650863e0302fe5f1c9?s=256
+      bio: Music freak, Facebook addict, Cricket crazy, Tenth-Grader, Part time blogger. In short, A typical teenager who falls in love with everything except studies. ;)
+    jagan:
+      first_name: Jagan
+      last_name: Mangat
+      display_name: Jagan Mangat
+      homepage: http://www.thewebtricks.com
+      bio: Jagan Mangat is a Part-time blogger,blogging about Blogging,web,social media and internet.
+    prasannan:
+      first_name: Prasannan
+      display_name: Prasannan
+      avatar: http://www.gravatar.com/avatar/3a6ebff8b005c2f232ee9c988a842480?s=256
+      homepage: http://
+      bio: An avid tech enthusiasist
+    lihar:
+      first_name: lihar
+      last_name: sharma
+      display_name: lihar
+      bio: You may also find my writings at  Expertscolumn.com
+      gender: male
+    soumya.pratihari:
+      first_name: Soumya
+      last_name: Pratihari
+      display_name: soumya.pratihari
+      avatar: http://www.gravatar.com/avatar/b6021c019f99fd778f1866be3ea01647?s=256
+      homepage: http://www.solidblogger.com
+      bio: Soumya Pratihari is a professional blogger who primarily blogs at Techcular, and Web hosting reviews.
+    unikaman:
+      first_name: Amandeep
+      last_name: Singh
+      display_name: Amandeep Singh
+      avatar: http://www.gravatar.com/avatar/3fe8b2b9bc5360e041124a92bcc93b8d?s=256
+      homepage: http://www.iTechApple.com/
+      bio: Amandeep Singh writes about latest technology, gadgets and social media at Technolism. He is an Apple fan (boy!) and writes about iOS, iPhone and iPad at iTechApple.
+      gender: male
+      location: UK
+      twitter: http://twitter.com/unikaman
+      facebook: http://facebook.com/unikaman
+      googleplus: https://plus.google.com/108646193324804536174/posts
+    Debajyoti Das:
+      display_name: Debajyoti Das
+      avatar: http://www.gravatar.com/avatar/1faf2f6ccfb5a87e8ebd7ce7678dfd5d?s=256
+      homepage: http://realtrix.blogspot.com/
+    monu_kumar2:
+      first_name: tripura
+      last_name: kant
+      display_name: Monu kumar
+      homepage: http://techzonein.blogspot.com
+      bio: I love to know about latest tips in tech world and love reading posts @DW
+      gender: male
+      twitter: http://Twitter.com/virat_kumar2
+      facebook: http://facebook.com/virat.kumar22
+    zubin:
+      first_name: Zubin
+      last_name: Rathod
+      display_name: Zubin Rathod
+      avatar: http://www.gravatar.com/avatar/0f3b7e4d2cb6861ab42b78d3f36d6259?s=256
+      homepage: http://www.zubinrathod.com
+      bio: Zubin Rathod is Author at DW &amp; He loves to write about Gadgets &amp; New Technologies. Research Analyst (Floor Support - QA Team) at IT Cube, Pune &amp; Co-Author at Digital Conqurer.
+      gender: male
+      location: Pune
+      linkedin: http://in.linkedin.com/in/zubinrathod?
+      twitter: https://twitter.com/zubinrathod
+      facebook: https://www.facebook.com/ZubRathod
+      googleplus: https://plus.google.com/u/0/+ZubinRathod
+    imtheking:
+      first_name: prashant
+      last_name: vishwakarma
+      display_name: imtheking
+      homepage: http://prasahntvis.hpage.com
+      bio: He is an engineering student and is crazy about mobile internet hacks and PC troubleshooting.
+    sitakanta:
+      display_name: sitakanta
+      bio: I am the co-founder of MySmartPrice. A startup that helps people find products at the best price.
+    saurabhshukla:
+      first_name: Saurabh
+      last_name: Shukla
+      display_name: Saurabh Shukla
+      avatar: http://www.gravatar.com/avatar/0c887153dc59b76f2c5ebebe63d6c6a6?s=256
+      bio: A web developer by profession, curious and perplexed observer and analyst by nature and FOSS evangelist by love. I have some extra love for WordPress!
+      gender: male
+      location: Pune
+      github: http://github.com/yapapaya
+      wordpress: http://profiles.wordpress.org/saurabhshukla
+      twitter: https://twitter.com/saurabhyapapaya
+      facebook: http://www.facebook.com/contact.saurabhs
+      googleplus: https://plus.google.com/108602502619428439922
+    myheartbits:
+      display_name: VISHAL GAIKAR
+      avatar: http://www.gravatar.com/avatar/2fb289a919ad8acfc2166af762426a20?s=256
+      homepage: http://orkutting-tricks.blogspot.com
+    perryb2006:
+      first_name: Paritosh
+      last_name: Bhatia
+      display_name: Paritosh
+      homepage: http://www.techvorm.com
+      bio: Fairly new to the blogging world, i came to know about the concept of blogging during a casual google search and from there on my urge to know things caused me to start blogging. I planned to start part time blogging along with one of my close college friend Rahul. And since then it has been a great experience for both of us. This little journey of a month has been a good one and i hope that it continues to be the same.
+    parshwanemijain:
+      first_name: Parshwa Nemi
+      last_name: Jain
+      display_name: Parshwa Nemi Jain
+    pratikparekh:
+      first_name: Pratik
+      last_name: Parekh
+      display_name: Pratik Parekh
+      avatar: http://www.gravatar.com/avatar/394bd555258f0bc197e1eaa0b7d7a22a?s=256
+      homepage: http://www.pratikparekh.com
+      bio: CA by Profession but a Pure TechFreak &amp; thinks tht advanced Tech is indistinguishable from magic
+    arpitnext:
+      display_name: ArpitNext
+      avatar: http://www.gravatar.com/avatar/811b1882b5cce6f5df1857c87a522b1d?s=256
+      homepage: http://Blog.ArpitNext.com
+    rayanhacker:
+      first_name: Rayan
+      display_name: Rayan
+      homepage: http://
+    swashata:
+      display_name: swashata
+      avatar: http://www.gravatar.com/avatar/64a3812a9c9eeb40702ddb860ddaf5ef?s=256
+    sourishnath:
+      first_name: Sourish
+      last_name: Nath
+      display_name: Jailbreak Iphone 4
+      avatar: http://www.gravatar.com/avatar/6364e63527edac7909c451203f3851d6?s=256
+      homepage: http://www.iphone4jailbreak.org
+    anilimb:
+      first_name: Anil
+      last_name: Gupta
+      display_name: Anil Gupta
+      avatar: http://www.gravatar.com/avatar/0f7b7303435fb5aa147e02b16f3d0cc5?s=256
+      homepage: http://www.scopeformoney.com/
+      bio: Anil Gupta writes about topics related to money making, blogging, seo, affiliate marketing and social media on www.scopeformoney.com blog
+    ksantoshp:
+      display_name: ksantoshp
+      avatar: http://www.gravatar.com/avatar/63c570a95b2ab3210a9fa0c35d9c98ea?s=256
+    vihave:
+      display_name: vihave
+      homepage: http://vidyasagarmadasu.blogspot.com
+    Gautam H N:
+      display_name: Gautam H N
+      avatar: http://www.gravatar.com/avatar/1b33e620cc628d5cc8af9b1d8c514127?s=256
+      homepage: http://www.techbuzz.in
+    bobnewman:
+      first_name: Bob
+      last_name: Newman
+      display_name: Bob Newman
+      homepage: http://www.TouchUpSoft.com/DVDRipper
+      bio: Bob has been writing Technology related articles from years and is also a Software Developer at http://www.TouchUpSoft.com
+    sunrocker11:
+      first_name: Sandeep
+      last_name: Singh
+      display_name: Sandeep
+      avatar: http://www.gravatar.com/avatar/3f97e181102017172d36ee6a1761d138?s=256
+      homepage: http://technoleash.com
+      bio: CEO of  Nth Blogger . He is a hard working Professional Engineering student and thrives to get the best out of himself. Blogging was not his passion but it has certainly become one and he is doing his best for it . catch him on Facebook and Twitter.
+    joshuaabenazer:
+      first_name: Joshua
+      last_name: Abenazer
+      display_name: Joshua Abenazer
+      avatar: http://www.gravatar.com/avatar/3fe06bf9b2705bf5ddf2e3ecbb34c013?s=256
+      bio: I love decoding WordPress and finding out new ways to hack the WordPress Core.
+      twitter: https://twitter.com/joshuaAbenazer
+      facebook: http://www.facebook.com/joshua.abenazer
+      linkedin: http://www.linkedin.com/in/joshuaabenazer
+      gender: male
+      github: https://github.com/joshuaabenazer
+      wordpress: http://profiles.wordpress.org/JoshuaAbenazer/
+      stackexchange: http://stackexchange.com/users/1038381/joshua-abenazer?tab=accounts
+    smartin:
+      first_name: Smartin
+      last_name: Jose
+      display_name: smartin
+      avatar: http://www.gravatar.com/avatar/5142f83d671c60031a083c124e764992?s=256
+      homepage: http://www.mobiclue.com
+      bio: Smartin is a Blogger ,web designer and seo enthusiast from Kerala India . You can know more about him at his website www.smartin.in or @smartinjose on Twitter .
+    vinayaknagri:
+      display_name: vinayaknagri
+      avatar: http://www.gravatar.com/avatar/35f8d48130de38daaff1f56d2aace2b6?s=256
+    montey:
+      first_name: Montey
+      display_name: montey
+      avatar: http://www.gravatar.com/avatar/467c89ae865ecb0f98edac23ab0d99ea?s=256
+      homepage: http://www.weightlosstriumph.com/
+    sunilkhale:
+      first_name: Sunil
+      last_name: Khale
+      display_name: Sunil Khale
+      avatar: http://www.gravatar.com/avatar/1b7224afcf15c6bbefd90940784bc047?s=256
+      homepage: http://promocoded.com
+      bio: The author is a B.Tech in Mechanical Engineering and has since devoted his life to blogging on technology. Check out his site to find the latest Jabong coupons for online shopping in India.
+      gender: male
+    binaryday:
+      display_name: binaryday
+      homepage: http://www.bestcnatraining.org/
+      bio: I am currently experimenting blogging without passion by writing about  free cna training
+    plus9:
+      display_name: Ravi
+      bio: A part time blogger from India. He blogs here http://allandroidplus.blogspot.com
+      twitter: allandroidplus
+      facebook: http://facebook.com/raviasylum
+    godzown:
+      first_name: Tanmay
+      last_name: Pundeer
+      display_name: Tanmay
+      homepage: http://
+    sarveshmotihari:
+      first_name: Sarvesh
+      last_name: Shrivastava
+      display_name: Sarvesh Shrivastava
+      avatar: http://www.gravatar.com/avatar/b9033148c69cd463a38fb01c1fa0856b?s=256
+      homepage: http://itswindows.com
+      bio: Sarvesh is a Microsoft fan boy and a Windows 8 lover. He likes to discover new tips and tricks for Windows. Blogging is his passion and he likes to cover everything related to tech.  He writes at his blog itswindows.com, which covers latest Windows 8 news and updates.
+      gender: male
+      location: Motihari
+      twitter: https://twitter.com/sraveshmotihari
+      facebook: http://www.facebook.com/sarveshmotihari
+      googleplus: https://plus.google.com/117785304679872624071
+    deepeshsodhi:
+      display_name: Deepesh Sodhi
+    cebutechblogger:
+      first_name: Bert
+      last_name: Padilla
+      display_name: Bert Padilla
+      avatar: http://www.gravatar.com/avatar/762ba8b64edf554a50b922a2abfca082?s=256
+      homepage: http://www.cite-technologian.com/
+      bio: Bert Padilla is a 23 year old part-time blogger behind Cebu Tech Blogger. He started blogging in late 2008, and finally put up his main blog in March 2009. He also writes articles for Cebu Bloggers Society, a local group in the Philippines geared toward a civic and social awareness.
+    technozeast:
+      display_name: technozeast
+      avatar: http://www.gravatar.com/avatar/b312352078cee34f0fbebe30bc21ff1c?s=256
+    manish:
+      first_name: Manish
+      last_name: Raj
+      display_name: Manish
+      homepage: http://www.technoslab.in
+      bio: a student, webmaster and technology lover.
+    srjcooldude:
+      first_name: Sreejesh
+      last_name: Suresh
+      display_name: TechGyo
+      avatar: http://www.gravatar.com/avatar/3e3283d264c6567447b4ecb6e5295a81?s=256
+      homepage: http://www.TechGyo.com/
+    tanya:
+      display_name: tanya
+      bio: Author of this article is a web addict and freelance writer who love to write about Gadget reviews,software’s and also about Sharepoint .
+    techthunder:
+      display_name: Omkar Dutta
+      homepage: http://tech-thunder.blogspot.com
+    anuragpcd:
+      first_name: Anurag
+      last_name: Choudhari
+      display_name: Anurag
+      avatar: http://www.gravatar.com/avatar/a45c2474801796132c31c9fb26ef8024?s=256
+      homepage: http://www.pcdrome.com
+    gauthamnagpur18:
+      first_name: N S Gautham Raj
+      display_name: N S Gautham Raj
+      avatar: http://www.gravatar.com/avatar/0e546a497843cb23a7dd5360c89ea07f?s=256
+      homepage: http://www.devlup.com
+      bio: Gautham is an Engineer from India.
+    akshay1a2a3a:
+      first_name: Akshay
+      last_name: Aggarwal
+      display_name: akshay1a2a3a
+      avatar: http://www.gravatar.com/avatar/463040961ad3c453b531dd48f22dc7a7?s=256
+      homepage: http://screamable.com/
+      bio: He is a Technology Lover with a dream to become a great blogger and trying to reach new heights with his passion and hard work.
+    patilswapnilv:
+      first_name: Swapnil
+      last_name: Patil
+      display_name: Swapnil Patil
+      avatar: http://www.gravatar.com/avatar/fab7fc88fe69b860382dbb5813661555?s=256
+      homepage: http://www.techmantra.org
+      bio: A B.tech student...technology freak. Loves Wordpress.Recently, getting hands on Android Programming. Passionate of almost everything that's open source, right from PHP to Java and Android OS.  "Eat, Play and Sleep Web"    Foodie| Blogger | 'Book worm' (really??? am I one)
+      gender: male
+      location: Aurangabad, Maharashtra
+      twitter: http://twitter.com/#!/swapypatil
+      facebook: http://www.facebook.com/patilswapnilv
+      linkedin: http://in.linkedin.com/in/patilswapnilv
+      googleplus: https://plus.google.com/104528580321109761641
+    mujtaba91:
+      first_name: Mujtaba
+      last_name: Ahmed
+      display_name: Mujtaba Ahmed
+      avatar: http://www.gravatar.com/avatar/cb03ba6fa851e7ba94a28284e346e969?s=256
+      homepage: http://www.dynamicguru.com
+      bio: A tenn harstruck with technology, an avid web designer and developer and a wordpress and jquery enthusiast
+    karthikp:
+      first_name: Karthik
+      last_name: Prabhu
+      display_name: Karthik Prabhu
+      avatar: http://www.gravatar.com/avatar/553b4cc32d08127e23aa9a5239fded5a?s=256
+      homepage: http://dtechwiz.blogspot.com
+      bio: Karthik is a 19 year old geek. He's a tech-addict and loves writing tech related articles especially how-tos. He's also a social networking enthusiast and can be found active on FB and Twitter.
+    IITian:
+      display_name: Vivek
+      homepage: http://labs.google.co.in/smschannels/channel/---xXx---
+    pushkarbhatt:
+      display_name: pushkarbhatt
+    amaranthine:
+      first_name: Jenny
+      last_name: Gospodinova
+      display_name: amaranthine
+      bio: I am a Senior Software Engineer and like reviewing software. I am interested in programs for Windows and converters.
+    aapkaankit007:
+      first_name: Ankit
+      last_name: Bansal
+      display_name: Ankit Bansal
+      homepage: http://ankitbansal15.blogspot.com
+      bio: I am a computer freak. i love to explore new things in it. I just love surfing the web.
+    dreamz:
+      display_name: dreamz
+      avatar: http://www.gravatar.com/avatar/78a80b3e6246c44efdd8daf08decc4d6?s=256
+      homepage: http://
+    Maharshi:
+      display_name: Maharshi
+      avatar: http://www.gravatar.com/avatar/c71cac6f5744c64729895bc3a84648ab?s=256
+    joypack:
+      display_name: Joy
+      homepage: http://www.fordevs.com
+      bio: Joy is a software engineer and the author of  ForDevs, a technology blog that focuses on latest trends, online tips and tools, web designing, programming and more.
+    jaipuriterahul:
+      first_name: Rahul
+      last_name: Singh
+      display_name: jaipuriterahul
+      avatar: http://www.gravatar.com/avatar/90cee8be62b49d185ba2aedb6095d639?s=256
+      homepage: http://www.faceiit.com
+      bio: He is an engineering student, computer enthusiast and a wannabe blogger. His interests are net surfing, blogging and website designing.
+    vikasworld:
+      first_name: Vikas
+      last_name: Kumar
+      display_name: Vikas Kumar
+      avatar: http://www.gravatar.com/avatar/573e3b6a4abaadd4c88ec2bb4881e6df?s=256
+      gender: male
+      twitter: http://twitter.com?vikas_kr
+      facebook: http://facebook.com/vikasworld
+      googleplus: http://plus.google.com/u/0/107161518475839448572
+    manpreetskhu:
+      first_name: manpreet
+      last_name: singh
+      display_name: manpreetskhu
+      homepage: http://manpreetisking.blogspot.com
+      bio: well i am based in pune
+    ashish.anand@rtcamp.com:
+      display_name: ashish.anand@rtcamp.com
+      avatar: http://www.gravatar.com/avatar/c5e5a889b3ae4e87402b74c46c28a486?s=256
+    satya164:
+      first_name: Satyajit
+      last_name: Sahoo
+      display_name: Satya
+      avatar: http://www.gravatar.com/avatar/84d56ea2b15f524765efe80e7fa6be06?s=256
+      homepage: http://www.funsurf.tk
+      bio: Satya is a blogger and web designer. He likes to promote Free and Open Source software and also likes to write tutorials and articles related to tech.
+    nishantdon:
+      first_name: Nishant
+      last_name: Adlakha
+      display_name: Nishant Adlakha
+      avatar: http://www.gravatar.com/avatar/c8a6d5e175e763b647da07e713e6e50f?s=256
+      homepage: http://www.chillgeeks.com
+      bio: I am doing Industrial Engineering from Thapar University. Blogging is just my hobby.
+    theambitiousgy:
+      first_name: Ashish
+      last_name: Bhatnagar
+      display_name: Ashish Bhatnagar
+      avatar: http://www.gravatar.com/avatar/c78fe04a40dfc76a6278deead5996306?s=256
+      bio: Ashish is a tech enthusiast, geek, reader, gamer and CEO of Tech News portal Gadget Media. You can follow him on Twitter @theambitiousgy
+      gender: male
+      location: India
+      twitter: http://twitter.com/theambitiousgy
+      facebook: http://www.facebook.com/ashish.bhatnagar.04
+      googleplus: https://plus.google.com/111885986061028343160/
+    mirza zain ul abedin:
+      display_name: mirza zain ul abedin
+      homepage: http://www.energy1122.blogspot.com
+    dinesh:
+      first_name: Dinesh
+      last_name: Verma
+      display_name: dinesh
+      homepage: http://www.teentechguru.com/
+      bio: Dinesh verma is a web enthusiast, he loves blogging and you can find more posts related to web 2.0 on Teen Tech Guru.
+    rahool:
+      display_name: rahool
+    anshuldixit:
+      first_name: Anshul
+      last_name: Dixit
+      display_name: Anshul
+      avatar: http://www.gravatar.com/avatar/b931e4d1e507712883da8dc1bf37bfe3?s=256
+      homepage: http://www.knowledgehub.co.in
+      bio: Anshul Dixit writes informative articles and authentic facts, to spread awareness
+    rajanbalana:
+      first_name: Rajan
+      last_name: Balana
+      display_name: Rajan Balana
+      avatar: http://www.gravatar.com/avatar/63e6325976d0d5da6da9df68c1b1ac56?s=256
+      bio: Rajan Balana is a blogger and loves to explore smartphones and tablets. He writes gadget reviews at Dreambloggers.
+      twitter: http://twitter.com/rajanbalana
+      facebook: https://facebook.com/rajanbalana
+    biggybillly:
+      display_name: biggybillly
+    himanshu:
+      display_name: himanshu
+      avatar: http://www.gravatar.com/avatar/1d439c49ab6713cccad66dc9fe0ca1f8?s=256
+    anonymous:
+      first_name: Anonymous
+      display_name: Anonymous
+      avatar: http://www.gravatar.com/avatar/d5637357b8266397d5fd84d8c91ecd3c?s=256
+      bio: This author wishes to remain anonymous.
+    mk.nikhilvijay@gmail.com:
+      first_name: Nikhil
+      last_name: Vijay
+      display_name: Nikhil Vijay
+      homepage: http://etechlic.blogspot.com/
+      gender: male
+      location: INDIA
+      linkedin: http://in.linkedin.com/in/nikhilvijay
+      twitter: http://twitter.com/etechlic
+      googleplus: https://plus.google.com/u/0/116088327644029524809/about
+    jatinsapra:
+      display_name: jatinsapra
+      avatar: http://www.gravatar.com/avatar/fc1789b0d18ddf1aa627ebc9cd381672?s=256
+      homepage: http://
+    drdevajyoti:
+      first_name: Dev
+      display_name: dev
+      avatar: http://www.gravatar.com/avatar/95eacffa8cb44caacf4d0706fbc3410c?s=256
+      homepage: http://www.aieealerts.com
+      bio: "24 yrs.  doc by prof.  Living up to my passions: the 2nd being Comps. :)"
+    mohitmayank:
+      first_name: Mohit
+      last_name: Jain
+      display_name: Mohit
+      avatar: http://www.gravatar.com/avatar/f6dd03374af814d14f42b472520a1646?s=256
+    gagan0123:
+      first_name: Gagan Deep
+      last_name: Singh
+      display_name: Gagan
+      avatar: http://www.gravatar.com/avatar/4420d227026fe2021787646c79310ccf?s=256
+    Abhishek:
+      display_name: Abhishek
+      avatar: http://www.gravatar.com/avatar/24904774e6887ddcb6d11b63b8e74fb3?s=256
+      homepage: http://
+    puja:
+      display_name: puja
+      homepage: http://
+    ajaypaa:
+      first_name: Ajay
+      last_name: Patel
+      display_name: Ajay Patel
+      homepage: http://ajaypaa.blogspot.com/
+      bio: My name is Ajay Patel. I am study in computer engineering in Gandhinagar [Gujarat]. I am interested in Blogging, programming, reading and browsing the web.
+      gender: male
+      location: Gandhinagar
+      googleplus: https://plus.google.com/105739067247176485332
+    r564627:
+      display_name: Rahul
+      homepage: http://funbyearn.blogspot.com/
+    gmanendra:
+      display_name: gmanendra
+      avatar: http://www.gravatar.com/avatar/9efa8f20f11c8267d4bda4563bb5c640?s=256
+    maheshkay:
+      display_name: Mahesh Kale
+      homepage: http://sparxengine.net
+      bio: Freelance Web Developer. Loves to work with WordPress.
+      gender: male
+      twitter: http://twitter.com/openspirit
+      facebook: http://facebook.com/skysnap
+      googleplus: https://plus.google.com/u/0/117136878161449116024
+    Mayur Somani:
+      display_name: Mayur Somani
+      avatar: http://www.gravatar.com/avatar/6b1ebaf8a3e14a637bae109a93c4705c?s=256
+      homepage: http://www.hacktrix.com
+      bio: Mayur is an internet entrepreneur running many websites and web services.
+    hellboundbloggers:
+      first_name: S.Pradeep
+      last_name: Kumar
+      display_name: S.Pradeep Kumar
+      avatar: http://www.gravatar.com/avatar/db6a1dc520e5fe4e7345eb7ea437cf66?s=256
+      homepage: http://www.hellboundbloggers.com/about/
+      bio: S.Pradeep Kumar is a technical blogger, freelancer, consultant, and writer specializing in blogging tips, product reviews and tutorials.
+    kapil911:
+      first_name: Kapil
+      last_name: Garg
+      display_name: kapil911
+    sagargholap:
+      first_name: Sagar
+      last_name: Gholap
+      display_name: Sagar Gholap
+      avatar: http://www.gravatar.com/avatar/18ddf3c4784fdf15065a5bd787373c5b?s=256
+      gender: male
+      location: Navi Mumbai
+      linkedin: http://in.linkedin.com/in/sagargholap
+      googleplus: https://plus.google.com/104582914010052557018
+    tomriddle:
+      first_name: Praveen
+      last_name: Kumar
+      display_name: Praveen Kumar
+      avatar: http://www.gravatar.com/avatar/88e4f82f8712064d997985beb266f6a1?s=256
+      homepage: http://www.praveen.ampli5.org/
+    zaheerabbas:
+      first_name: Zaheer
+      last_name: Abbas
+      display_name: zaheerabbas
+      homepage: http://www.tipskhazana.blogspot.com
+    urbgeek:
+      first_name: Abhishek
+      last_name: Biswal
+      display_name: Abhishek Biswal
+    avinashsonee:
+      display_name: avinashsonee
+      homepage: http://avinashsonee.in/tech
+    girishmony:
+      first_name: Girish
+      last_name: Mony
+      display_name: Girish Mony
+      avatar: http://www.gravatar.com/avatar/394c54538070c6ca21e5e8f346e69bad?s=256
+      homepage: http://browsomatic.com
+      bio: I try to bring the latest news and features about the browsers and the web applications, you use daily.
+    rajnish357:
+      display_name: Rajnish K.
+      avatar: http://www.gravatar.com/avatar/f8cc09e3e5343337966f618e7315f6ac?s=256
+      homepage: http://techtwisted.com/
+      gender: male
+      twitter: http://www.twitter.com/TechTwisted
+      facebook: http://facebook.com/TechTwisted
+      googleplus: https://plus.google.com/110631882549900973578/
+      bio: Hey this is Rajnish k. (+Rajnish) currently a full time Blogger. I write for my tech blog TechTwisted
+    MikyGreen:
+      display_name: MikyGreen
+      avatar: http://www.gravatar.com/avatar/c312d3bfe8d2a416d6a7ef2b1dc221f6?s=256
+      homepage: http://
+    akki:
+      display_name: akki
+      avatar: http://www.gravatar.com/avatar/17d38aec15f577ee4018a1709e867235?s=256
+    pariiiii:
+      first_name: paritosh
+      last_name: praharaj
+      display_name: pariiiii
+      avatar: http://www.gravatar.com/avatar/fa556587438bc6c9010e05ecc8c198ef?s=256
+      bio: I love surfing the web.Love to tweet....
+    amelia:
+      first_name: Amelia
+      last_name: Hunter
+      display_name: Amelia
+      avatar: http://www.gravatar.com/avatar/078e253c41f25ea4f130927a6b0c49c8?s=256
+      homepage: http://www.rightmobilephone.co.uk/
+      bio: Amelia Hunter is a journalist and a blogger who likes writing about mobile phones
+    gr8bloggerman:
+      display_name: gr8bloggerman
+      avatar: http://www.gravatar.com/avatar/9ecace8ebfae1abbe2f916549af27f54?s=256
+      homepage: http://www.techfreakstuff.com
+    quakeboy:
+      display_name: quakeboy
+      avatar: http://www.gravatar.com/avatar/f723a7f3ec123b3ac8207f85ad87e80a?s=256
+      homepage: http://
+    blogshut:
+      first_name: Kiran
+      last_name: Nayak
+      display_name: Kiru
+      homepage: http://blogshut.com
+      bio: I share information about blogging, useful websites, on CSS coding, some widgets, tutorials, etc. I am working very hard for my blog.  My name is K K Nayak. Blogging is my passion and i love it. I like to learn new things on blogging and publish on my  blog BlogsHut.com.
+    pradeepsixer:
+      first_name: Pradeep
+      last_name: Kumar
+      display_name: pradeepsixer
+      homepage: http://www.pctips4u.com
+      bio: Love to blog, code, learn LINUX and play cricket. More importantly watch anime and read manga
+      gender: male
+      location: India
+      twitter: https://twitter.com/pctips_in
+      facebook: https://www.facebook.com/groups/techgeeks001/
+      googleplus: https://plus.google.com/communities/104005619815109486455
+    mohit28sharma:
+      first_name: Mohit
+      last_name: Sharma
+      display_name: Mohit
+      avatar: http://www.gravatar.com/avatar/b4608d5dca4c08aed94c7ffd9f3193c7?s=256
+      homepage: http://www.EbookProvider.co.cc
+    kvn555:
+      first_name: Kevin
+      last_name: Kheira
+      display_name: Kevin
+      bio: I'm a Web &amp; Graphic Designer &amp; Gadget Lover !!!
+    jaganmangat:
+      first_name: jagan
+      last_name: mangat
+      display_name: jaganmangat
+      homepage: https://www.thewebtricks.com/
+      bio: Regular Tech blogger and a student.
+    shrinitech:
+      first_name: Shrinivas
+      last_name: Naik
+      display_name: Shrinivas
+      avatar: http://www.gravatar.com/avatar/6fcb9f3332f140fc68a85023c4d13f87?s=256
+      homepage: http://www.techgyo.com
+    naweedchougle894:
+      first_name: Naweed
+      last_name: Chougle
+      display_name: Naweed Chougle
+      avatar: http://www.gravatar.com/avatar/bb3390a60918d38d0637a71a94c4af00?s=256
+    desinet1:
+      display_name: desinet1
+      avatar: http://www.gravatar.com/avatar/2932dadf8b16dcc8aaa749ca090f43f1?s=256
+    techcats:
+      display_name: Rajesh Kanuri
+      avatar: http://www.gravatar.com/avatar/79dd23f57582128b6709767c1a4d386a?s=256
+      homepage: http://www.techcats.net/
+      bio: Rajesh Kanuri; An Engineer turned Blogger from Hyderabad. Beyond Working as Application Developer &amp; Pursuing MBA, I am quite specialized in System Software’s, Administration &amp; Networking Topologies. My hobbies include Blogging, Internet, Movies, and Music. I have started this website to share &amp; gather knowledge. This would soon be an open forum to interact on any topic related to technology.
+    robinsh123:
+      first_name: Robinsh
+      last_name: Kumar
+      display_name: Robinsh
+      avatar: http://www.gravatar.com/avatar/027d4d6cf2a0abdedf154185e39f2682?s=256
+      homepage: http://www.digmlm.com
+      bio: Hey you should know that I hate filling this bio boxes because can't be expressive to be a real and would like to invite you to chat me via gmail and username will be " robinsh123@gmail.com ".
+    thenetizens:
+      first_name: MSP
+      display_name: MSP
+      homepage: http://www.thenetizens.net
+      bio: An engineering graduate - working as a designer - writer at Technorati - Also a blogger at http://www.thenetizens.net
+      gender: male
+      location: India
+      twitter: http://www.twitter.com/msp_msp
+      facebook: http://www.facebook.com/thenetizens
+      googleplus: https://plus.google.com/106292594271350575999/posts
+    mohsinkhan10:
+      first_name: Mohsin
+      last_name: Khan
+      display_name: Mohsin Khan
+      avatar: http://www.gravatar.com/avatar/be178dc3b69c68aa369a339cb88ac223?s=256
+      homepage: http://giventech.com
+      bio: I started out as an Aeronautical Engineer but realized soon enough that life had something else in store for me. I love blogging about latest gadgets, apps and other useful How-To guides. Spirit of Entrepreneurship keeps me going during the days when I feel low. I write @ Give n Tech
+      gender: male
+      location: New Delhi
+      wordpress: http://gravatar.com/mohsinkhan332488141
+      facebook: http://www.facebook.com/mohsinkhan10
+    venkat:
+      first_name: venkat
+      display_name: venkat
+      homepage: http://techdows.com/
+      bio: Venkat is the author of Technology blog Technically inspired about windows tips,freewares,Web,Technology and lot more.
+    titash:
+      first_name: Titash
+      last_name: RC
+      display_name: Titash
+      homepage: http://transparentmirror.blogspot.com
+      bio: a bohemian blogger who infrequently writes and reviews new services and applications appearing on the world wide web.
+      twitter: http://twitter.com/titash
+      facebook: http://facebook.com/transparentmirror
+      linkedin: http://www.linkedin.com/pub/titash-roy-chowdhury/2a/58b/957
+    jhbalaji:
+      first_name: Balaji
+      last_name: J H
+      display_name: Balaji
+      avatar: http://www.gravatar.com/avatar/6f659eba7db9dd86f2792ca1f1cc8874?s=256
+      homepage: http://www.bloggerposter.com
+      bio: Hi Guys, My Name is Balaji J H. I am Student and a Freelancer. You can know more about me here. I am basically an 17 year young guy from Tamil Nadu [Pollachi,Coimbatore] and i am currently taking my Diploma Certification in Mechanical Engineering. I do often love to blog, playing Cricket and  Badminton with my friends and doing several experiments on my field, Mechanical Engineering especially on Industrial Automation.      I own Blogger Poster an Software which is used to Automatically Post to Blogger and WordPress Blogs!      Also i Run another Service named iWebRSS which is used to Generate Full Text RSS from the Summary Feeds
+    ibnusaheed:
+      first_name: Shahzad
+      last_name: Saeed
+      display_name: Shahzad Saeed
+      avatar: http://www.gravatar.com/avatar/1a1d1e124c358802d59f1376ec94ee2c?s=256
+      homepage: http://www.TechAndProject.com
+      bio: I am Student, open source enthusiast and author of  Google Summer of Code open source project ebook. He blogs on  Tech and Project
+      twitter: http://www.twiiter.com/shahzadsaeed
+      facebook: http://www.facebook.com/shahzad.saeed1
+    themepremium:
+      display_name: themepremium
+      homepage: http://www.themepremium.com
+      bio: Themepremium provide you with latest wordpress tutorials, hacks, webhosting deals, premium wordpress themes and hosting discount.
+    djshankey:
+      first_name: ankit
+      last_name: rahim
+      display_name: djshankey
+      homepage: http://ankitarts.blogspot.com
+      bio: I love designing new thing in photoshop making logos and fictional movie posters are what i basically love the most.
+    vijesh:
+      first_name: Vijesh
+      last_name: Cormaty
+      display_name: Vijesh
+      avatar: http://www.gravatar.com/avatar/1eb15ecaabdc83e60f769b347b615a66?s=256
+      homepage: http://www.blogingrace.com/
+      bio: Vijesh is a part time blogger with passion for coding and learning new horizons of blogging.
+      gender: male
+    george:
+      display_name: george
+      avatar: http://www.gravatar.com/avatar/a890e2d3ae8bb4b3957fd2e45ca12b43?s=256
+      homepage: http://www.wheelosphere.org
+    mukeshksahu:
+      first_name: Mukesh
+      last_name: Sahu
+      display_name: mukeshksahu
+      avatar: http://www.gravatar.com/avatar/3653092903050061ca86e95a3df6fa7f?s=256
+    echoblogger:
+      display_name: echoblogger
+      avatar: http://www.gravatar.com/avatar/09f6055ecf1a0093cf7f5132cd4b8a86?s=256
+      homepage: http://echoblogger.com/
+      bio: EchoBlogger is a one stop portal for all the tech-news with all the updates of web 2.0,internet,blogging,gadgets,tips and tricks,news
+    kapilgonge:
+      display_name: Kapil
+      avatar: http://www.gravatar.com/avatar/f83fffe0ff75e084520bef5b323932b0?s=256
+    joepawl:
+      first_name: Joe
+      last_name: Pawlikowski
+      display_name: Joe Pawlikowski
+      avatar: http://www.gravatar.com/avatar/fa9b329ec06bea5819cb6e706bd1d120?s=256
+      bio: Joe Pawlikowski is the editor of BBGeeks, a site dedicated to helping BlackBerry users get the most out of their devices.
+    smashingeeks:
+      display_name: SmashinGeeks
+      avatar: http://www.gravatar.com/avatar/24826ebb09364e99df8743d37c9edd2a?s=256
+      homepage: http://smashingeeks.com
+      bio: SmashinGeek is a Web Designer and loves to Write Articles. If you like this post, you can follow SmashinGeeks on Twitter. You can also Subscribe to SmashinGeeks via  RSS or EMAIL to receive updates.
+    dhavalthakar:
+      first_name: Dhaval
+      last_name: Thakar
+      display_name: Dhaval Thakar
+      avatar: http://www.gravatar.com/avatar/9bf9842c3828e879451c969e7990f05f?s=256
+      homepage: http://www.rtcamp.com
+      bio: Linux System Administrator
+      gender: male
+      location: Pune
+      linkedin: http://in.linkedin.com/in/dhavalthakar
+      facebook: https://www.facebook.com/thakardhaval
+    joseph:
+      first_name: Joseph
+      last_name: Christopher
+      display_name: Joseph Christopher
+      avatar: http://www.gravatar.com/avatar/ac86f0d099f907df04fee9b459b63d87?s=256
+      homepage: http://www.josephcs.com
+      bio: Joseph is 19, Tech Enthusiast and a Gadget guy. Loves to write simple tutorials for newbies.
+    jaydipparikh:
+      first_name: Jaydip
+      last_name: Parikh
+      display_name: Jaydip Parikh
+      avatar: http://www.gravatar.com/avatar/5d142fa546091c2308eee618ca0dda35?s=256
+      homepage: http://www.jaydip.info
+      bio: Jaydip Parikh is an Internet Marketing Consultant  who shares  his Learning Experience with the World. He write  about Internet Marketing, Blogging, Social Media, etc. Apart from this he is Versatile Personality having various  skills. Click here to know more about Jaydip Parikh or Follow him on Twitter  @jaydipparikh
+    suhasgirgaonkar:
+      first_name: Suhas
+      last_name: Girgaonkar
+      display_name: Suhas Girgaonkar
+      avatar: http://www.gravatar.com/avatar/c1855be585bc68b8ab2714c86924bc08?s=256
+      bio: I love Development and like Wordpress themes and plugins development.
+      twitter: http://twitter.com/suhasgirgaonkar
+      facebook: https://www.facebook.com/suhas.girgaonkar
+      gender: male
+    shatman:
+      first_name: Shaun
+      last_name: Chatman
+      display_name: Shaun Chatman
+      avatar: http://www.gravatar.com/avatar/62a8f3ced1819853a53f042af9ee44c9?s=256
+      homepage: http://www.lenovo.com/in/en/
+      bio: Shaun Chatman is a well published author on many authority sites. He lives in Dunedin, FL, and spends his free time playing with his kids or messing around on his laptop.
+      gender: male
+      location: United States
+      twitter: http://twitter.com/shaun_chatman
+      facebook: http://www.facebook.com/shaun.chatman.5
+      googleplus: https://plus.google.com/u/0/108669581696135088160
+
 ---

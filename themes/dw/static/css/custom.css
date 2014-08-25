@@ -74,3 +74,10 @@ table.gsc-search-box td.gsc-input,
 .author-bio h4{margin-top: 0; display: inline-block}
 .author-bio p{font-size: 80%;}
 .clear{clear: both}
+
+.post img {
+  box-shadow: 0 0 2px #ccc;
+  margin: 5px;
+  /*-webkit-box-shadow: 0 0  1px #ccc;*/
+  /*-moz-box-shadow: 0 0 1px #ccc;*/
+}
