@@ -3,7 +3,7 @@ baseurl : "http://devilsworksho.org/"
 MetaDataFormat : "yaml"
 canonifyurls : false
 title : "Devils' Workshop"
-theme : "dw"
+#theme : "dw"
 permalinks:
   page: /:slug/
   post: /:slug/
@@ -17,29 +17,29 @@ indexes:
 
 menu:
     primary:
-        - Name: About Me
+        - Name: About Us
           Pre: "<i class='fa fa-fw fa-user'></i>"
           Url: "/about/"
-        - Name: Blog
+        - Name: Authors
+          Pre: "<i class='fa fa-fw fa-pecil'></i>"
+          Url: "/author/"
+        - Name: Writing for DW
+          Pre: "<i class='fa fa-fw fa-pecil'></i>"
+          Url: "/guest-bloggers/"
+        - Name: Advertise
           Pre: "<i class='fa fa-fw fa-bullhorn'></i>"
-          Url: "/post/"
-        - Name: Work
-          Pre: "<i class='fa fa-fw fa-star'></i>"
-          Url: "/work/"
-        - Name: Interviews
-          Pre: "<i class='fa fa-fw fa-microphone'></i>"
+          Url: "/interviews/"
+        - Name: Contact Us
+          Pre: "<i class='fa fa-fw fa-envelope-o'></i>"
           Url: "/interviews/"
 
     social:
         - Name: "Facebook"
           Pre: "<i class='fa fa-facebook-square'></i>"
-          Url: "https://facebook.com/rahulb286"
+          Url: "https://facebook.com/devilsworkshop.org"
         - Name: "Twitter"
           Pre: "<i class='fa fa-twitter-square'></i>"
-          Url: "https://twitter.com/rahul286"
-        - Name: "Github"
-          Pre: "<i class='fa fa-github-square'></i>"
-          Url: "https://github.com/rahul286"
+          Url: "https://twitter.com/devils_workshop"
         - Name: "RSS Feed"
           Pre: "<i class='fa fa-rss-square'></i>"
           Url: "/index.xml"

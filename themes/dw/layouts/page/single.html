@@ -1,0 +1,10 @@
+{{ template "theme/partials/head.html" . }}
+<body>
+    <div class="content container">
+        <div class="post">
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+        </div>
+    </div>
+{{ template "theme/partials/sidebar.html" . }}
+{{ template "theme/partials/footer.html" . }}

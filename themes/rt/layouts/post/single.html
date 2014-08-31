@@ -1,21 +1,17 @@
 {{ template "theme/partials/head.html" . }}
-<body>
 
-    <div class="content container">
-        <div class="post">
             {{ $current_author := index .Params.author 0}}
             {{ $this_author := index .Site.Params.Devils $current_author }}
                     {{range $key, $val := $this_author }}
                             {{$key}} => {{ $val }} <br/>
                     {{end}}
             <a href="/author/{{$current_author}}">{{$current_author}}</a>
+
             <h1>{{ .Title }}</h1>
+
             <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>  by
             <span class="post-date">{{ $current_author  }}</span>
 
             {{ .Content }}
-        </div>
-    </div>
 
-{{ template "theme/partials/sidebar.html" . }}
 {{ template "theme/partials/footer.html" . }}

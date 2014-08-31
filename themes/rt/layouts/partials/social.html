@@ -1,0 +1,50 @@
+<!-- START: SEO/Social Meta. -->
+
+<link rel="canonical"       href="{{.Permalink}}" />
+<meta property="og:url"     content="{{.Permalink}}" />
+<meta name="twitter:url"    content="{{.Permalink}}"/>
+
+{{if .Params}}
+    {{with .Params.excerpt}}
+        <meta name="description"        content="{{.}}"/>
+        <meta property="og:description" content="{{.}}"/>
+    {{end}}
+
+    {{ $current_author := index .Params.author 0}}
+    {{ $this_author := index .Site.Params.Devils $current_author }}
+
+    {{with $this_author.google_plus}}<link rel="author"              href="{{.}}"/>    {{end}}
+    {{with $this_author.twitter}}    <meta name="twitter:creator"    content="{{.}}"/> {{end}}
+    {{with $this_author.facebook}}   <meta property="article:author" content="{{.}}" />{{end}}
+    <meta property="og:type" content="article" />
+    {{ range .Params.tags }}        <meta property="article:tag" content="{{.}}" />
+    {{ end }}
+    {{ range .Params.categories }}  <meta property="article:section" content="{{.}}" />
+    {{ end }}
+{{else}}
+    <meta property="og:type" content="website" />
+{{end}}
+
+
+{{with .Site.Params.googleplus_publisher}}<link rel="publisher" href="{{.}}"/>{{end}}
+
+<meta property="og:locale" content="en_US" />
+
+<meta name="twitter:card" content="summary"/>
+{{with .Site.Params.twitter_handle}}<meta name="twitter:site" content="{{.}}"/>{{end}}
+
+<meta name="twitter:domain"     content="{{.Site.Title}}"/>
+<meta property="og:site_name"   content="{{.Site.Title}}" />
+
+{{with .Params.featured_image}}<meta name="twitter:image:src" content="{{.}}"/>{{end}}
+{{with .Params.excerpt}}<meta name="twitter:description" content="{{.}}"/>{{end}}
+
+{{with .Params.title}}
+    <meta name="twitter:title" content="{{.}}"/>
+    <meta property="og:title" content="{{.}}" />
+{{end}}
+
+<meta property="article:published_time" content="{{.Params.date}}" />
+<meta property="article:modified_time" content="{{.Params.date}}" />
+<meta property="og:updated_time" content="{{.Params.date}}" />
+<!-- END: SEO/Social Meta. -->

@@ -1,0 +1,33 @@
+<!-- FIXME: variable scope issue so poor code reuse here -->
+{{if .Params}}
+    {{ $current_author := index .Params.author 0}}
+
+    {{ $this_author := index .Site.Params.Devils $current_author }}
+
+    <div class="author-bio">
+        {{with $this_author.avatar}}<img class="pull-left" src="{{.}}" alt="{{$current_author}}"/>{{end}}
+        <div class="social-nav pull-right">
+            {{with $this_author.facebook}}<a href="{{.}}"> <i class="fa fa-facebook-square"></i> </a>{{end }}
+            {{with $this_author.twitter}}<a href="{{.}}"> <i class="fa fa-twitter-square"></i> </a>{{end }}
+            {{with $this_author.github }}<a href="{{.}}"> <i class="fa fa-github-square"></i> </a>{{end}}
+        </div>
+        <h4> About {{ with $this_author.display_name}} {{.}} {{else}} {{$current_author}} {{end}} </h4>
+        <p>{{$this_author.bio}}</p>
+    </div>
+
+{{else }}
+    {{ $current_author := .Title | lower}}
+    {{ $this_author := index .Site.Params.Devils $current_author }}
+
+    <div class="author-bio">
+        {{with $this_author.avatar}}<img class="pull-left" src="{{.}}" alt="{{$current_author}}"/>{{end}}
+        <div class="social-nav pull-right">
+            {{with $this_author.facebook}}<a href="{{.}}"> <i class="fa fa-facebook-square"></i> </a>{{end }}
+            {{with $this_author.twitter}}<a href="{{.}}"> <i class="fa fa-twitter-square"></i> </a>{{end }}
+            {{with $this_author.github }}<a href="{{.}}"> <i class="fa fa-github-square"></i> </a>{{end}}
+        </div>
+        <h4> About {{ with $this_author.display_name}} {{.}} {{else}} {{$current_author}} {{end}} </h4>
+        <p>{{$this_author.bio}}</p>
+    </div>
+
+{{end}}

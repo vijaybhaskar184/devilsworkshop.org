@@ -1,19 +1,55 @@
-.footer{ font-size: 80%; position: absolute; bottom: 1rem; }
-
-@media (min-width: 24rem) {
-    .footer{ position: relative; bottom: 0; margin-top: 5px; }
+.social-nav{
+    font-size: 150%;
 }
 
-.sidebar {padding: 1.0rem; }
-.sidebar h1{margin: 0 ; padding: 0}
+.footer{
+    font-size: 80%;
+    position: absolute;
+    bottom: 1rem;
+}
+
+@media (min-width: 24rem) {
+    .footer{
+        position: relative;
+        bottom: 0;
+        margin-top: 5px;
+    }
+    .sidebar-nav {
+        /*display: inline-block;*/
+        /*position: relative;
+        margin-left: 0 auto;
+
+        left: 33%;
+        text-align: left;*/
+    }
+    .sidebar-nav li{
+        /*width: 80%;
+        margin: 0 auto;*/
+        /*display: inline-block;
+        text-align: left;*/
+    }
+}
+
+.sidebar-about h1{
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
 .sidebar-about p{font-size: 1.0rem}
-.sidebar-nav li { margin: 5px 0; }
-.sidebar .social-nav {font-size: 1.5rem}
-.content{ padding-top: 1rem; }
 
-time{ font-size: 80%;    font-style: italic; font-weight: normal; padding-top: 5px; }
+.content{
+    padding-top: 1rem;
+}
 
-#search{margin:20px 0}
+time{
+    font-size: 75%;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+/*.gsc-search-box-tools .gsc-search-box {background: none; border: none;}
+.gsc-search-box-tools .gsc-search-box .gsc-input { padding: 2px 5px }*/
 #___gcse_0 .cse .gsc-control-cse,
 #___gcse_0 .gsc-control-cse,
 #___gcse_0 .cse form.gsc-search-box,
@@ -31,8 +67,8 @@ table.gsc-search-box td.gsc-input,
 .logo-circle {    width: 128px; height: 128px;}
 .logo { background: white; padding: 10px}
 
-.author-bio {min-height: 90px}
-.author-bio img.pull-left {margin: 10px 20px 0 0; max-height: 80px}
+/*.author-bio {background: #f9f9f9; }*/
+.author-bio img.pull-left {margin-right: 20px; max-height: 128px}
 .author-bio .social-nav a {color: #202020; margin-left: 5px}
 .author-bio .social-nav  {font-size: 25px; margin-top: 2px; line-height: 25px; height: 25px}
 .author-bio h4{margin-top: 0; display: inline-block}
@@ -46,11 +82,6 @@ table.gsc-search-box td.gsc-input,
   /*-moz-box-shadow: 0 0 1px #ccc;*/
 }
 
-.post-meta { font-size: 80%; display: block;  margin-top: -0.25rem; margin-bottom: 1rem; color: #9a9a9a;}
-
-.post-meta a:not(:last-child)::after {content: ",";}
-
-ol.posts,
-ul.posts { margin-top: 25px}
-ol.posts li,
-ul.posts li{margin: 10px 0; }
+.navbar-brand img{
+    max-height: 40px;
+}

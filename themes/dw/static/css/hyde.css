@@ -32,9 +32,9 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
-@media (min-width: 48rem) {
+/*@media (min-width: 48rem) {
   html {
     font-size: 16px;
   }
@@ -43,7 +43,7 @@ html {
   html {
     font-size: 20px;
   }
-}
+}*/
 
 
 /*
@@ -130,7 +130,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48rem) {
   .content {
-    max-width: 38rem;
+    max-width: 54rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }

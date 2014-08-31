@@ -1,23 +1,23 @@
 <div class="sidebar">
-  <h1>
-     <a href="/" title="{{ .Site.Title }}">
-         <img class="logo" alt="{{ .Site.Title }}" src="{{ .Site.Params.Logo }}"/>
-     </a>
-  </h1>
-
+<a href="/"><img class="logo" src="{{ .Site.Params.Logo }}"/></a>
   <div class="container">
     <div class="sidebar-about">
-      <p class="lead">{{ with .Site.Params.Subtitle }} {{.}} {{end}}</p>
+
+
+      <h1>{{ .Site.Title }}</h1>
+      <p class="lead">
+      {{ with .Site.Params.Subtitle }} {{.}} {{end}}
+      </p>
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Home</a></li>
+      <li><a href="/"><i class='fa fa-fw fa-home'></i> Home</a> </li>
       {{ range .Site.Menus.primary }}
-      <li><a href="{{.Url}}">{{ .Name }}</a></li>
+        <li><a href="{{.Url}}"> {{ .Pre }} {{ .Name }} </a></li>
       {{end}}
     </ul>
 
-    <div id="search"><gcse:search></gcse:search></div>
+    <gcse:search></gcse:search>
 
     <div class="social-nav">
     {{ range .Site.Menus.social }}

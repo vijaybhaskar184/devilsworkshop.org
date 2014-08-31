@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="rtp-html rtp-full-width-layout">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+
+    <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Google Custom Search -->
+ <script>
+   (function() {
+     var cx = '{{.Site.Params.google_cse}}';
+     var gcse = document.createElement('script');
+     gcse.type = 'text/javascript';
+     gcse.async = true;
+     gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+         '//www.google.com/cse/cse.js?cx=' + cx;
+     var s = document.getElementsByTagName('script')[0];
+     s.parentNode.insertBefore(gcse, s);
+   })();
+ </script>
+ <!-- Google Custom End -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/style.css">
+    <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/custom.css">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <!-- RSS -->
+    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+
+
+</head>
+
+<body>
+    <div id="main-wrapper">
+        <div class="container" role="document">
+
+            <header class="rtp-header banner navbar navbar-default navbar-static-top row" role="banner">
+                <div class="navbar-header">
+                    <a class="navbar-brand" role="link" href="/" title="{{.Site.Title}}"><img role="img" alt="{{.Site.Title}}" src="{{.Site.Params.Logo}}"></a>
+                </div>
+
+                <nav class="collapse navbar-collapse" role="navigation">
+                    <ul id="menu-header-menu" class="nav navbar-nav">
+                        {{ range .Site.Menus.primary }}
+                          <li><a href="{{.Url}}"> {{ .Name }} </a></li>
+                        {{end}}
+                </ul>
+            </nav>
+        </header>
+
+        <div class="rtp-section-wrap row">

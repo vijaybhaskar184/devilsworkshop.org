@@ -9,9 +9,13 @@
     <hr/>
     <h2>Recent Posts</h2>
 
+    <ol class="posts">
     {{ range first 10 .Data.Pages }}
-        <h4 class="posts"><a href="{{ .Permalink }}">{{ .Title }}</a><time class="pull-right post-list">{{ .Date.Format "Jan 2, 2006" }}</time></h4>
-    {{ end }}
+          {{ if eq .Section "post" }}
+              <li class="clear" ><a href="{{ .Permalink }}">{{ .Title }}</a><time class="pull-right post-list">{{ .Date.Format "Jan 2, 2006" }}</time></li>
+          {{end}}
+    {{end}}
+    </ol>
 
   </div>
 {{ template "theme/partials/sidebar.html" . }}

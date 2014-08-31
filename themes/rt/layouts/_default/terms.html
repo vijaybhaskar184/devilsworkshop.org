@@ -1,16 +1,14 @@
 {{ template "theme/partials/head.html" . }}
-<body>
 
   <div class="content container">
         <h1>{{ .Title }}</h1>
 
-  <ol class="posts">
+  <ul class="posts">
    {{ $data := .Data }}
     {{ range $key, $value := .Data.Terms.ByCount }}
-    <li><a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }}) </li>
+    <li><a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> {{ $value.Count }} </li>
     {{ end }}  </ul>
 
   </div>
 
-{{ template "theme/partials/sidebar.html" . }}
 {{ template "theme/partials/footer.html" . }}
