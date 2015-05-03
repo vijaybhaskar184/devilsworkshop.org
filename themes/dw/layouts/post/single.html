@@ -1,0 +1,28 @@
+<!-- for blog posts  -->
+
+<!--include common header -->
+{{ partial "head.html" . }}
+
+{{ $current_author := index .Params.author 0}}
+{{ $this_author := index .Site.Data.authors "adityakane"}}
+
+<div class="content container">
+  <div class="post">
+    <h1>{{ .Title }}</h1>
+    <pre>layout >> posts >> single.html</pre>
+    
+    <span class="post-meta">{{ .Date.Format "Jan 2, 2006" }}
+      <em>by</em>
+      <a href="/author/{{$current_author}}">{{ with $this_author.display_name}} {{.}} {{else}} {{$current_author}} {{end}}</a>
+    </span>
+    {{ .Content }}
+    <span class="post-meta">Tags: {{range .Params.tags}} <a href="/tags/{{. | urlize }}">{{.}}</a> {{end}}</span>
+    <span class="post-meta">Categories: {{range .Params.categories}} <a href="/categories/{{. | urlize }}">{{.}}</a>{{end}}</span>
+    <hr/> {{ template "theme/partials/authorbio.html" . }}
+  </div>
+</div>
+
+<!--include common sidebar -->
+{{ partial "sidebar.html" . }}
+<!--include common footer -->
+{{ partial "footer.html" . }}

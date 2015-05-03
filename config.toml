@@ -1,0 +1,57 @@
+baseurl = "http://devilsworksho.org/"
+MetaDataFormat = "yaml"
+title = "Devils' Workshop"
+#theme = "dw"
+
+[permalinks]
+page = "/:slug/"
+post = "/:slug/"
+
+[indexes]
+category = "categories"
+tag = "tags"
+author = "author"
+
+# disqusShortname = "rahul286"
+
+[[menu.primary]]
+name = "About Us"
+pre = "<i class='fa fa-fw fa-user'></i>"
+url = "/about/"
+[[menu.primary]]
+name = "Authors"
+pre = "<i class='fa fa-fw fa-pecil'></i>"
+url = "/author/"
+[[menu.primary]]
+name = "Writing for DW"
+pre = "<i class='fa fa-fw fa-pecil'></i>"
+url = "/guest-bloggers/"
+[[menu.primary]]
+name = "Advertise"
+pre = "<i class='fa fa-fw fa-bullhorn'></i>"
+url = "/advertise/"
+[[menu.primary]]
+name = "Contact Us"
+pre = "<i class='fa fa-fw fa-envelope-o'></i>"
+url = "/contact/"
+
+[[menu.social]]
+name = "Facebook"
+pre = "<i class='fa fa-facebook-square'></i>"
+url = "https://facebook.com/devilsworkshop.org"
+[[menu.social]]
+name = "Twitter"
+pre = "<i class='fa fa-twitter-square'></i>"
+url = "https://twitter.com/devils_workshop"
+[[menu.social]]
+name = "RSS Feed"
+pre = "<i class='fa fa-rss-square'></i>"
+url = "/index.xml"
+
+[params]
+Subtitle = "The Tech Community blog!"
+google_cse = "002848651537712603274:gbvyc3qsdd4"
+Logo = "http://devilsworkshop.org/files/2012/02/devils-workshop-logo.png"
+GithubRepourl = "https://github.com/rtCamp/devilsworkshop.org/"
+googleplus_publisher = "https://plus.google.com/118442670704550181017/"
+twitter_handle = "@devils_workshop"
