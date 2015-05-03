@@ -10,7 +10,7 @@
   <div class="post">
     <h1>{{ .Title }}</h1>
     <pre>layout >> posts >> single.html</pre>
-    
+
     <span class="post-meta">{{ .Date.Format "Jan 2, 2006" }}
       <em>by</em>
       <a href="/author/{{$current_author}}">{{ with $this_author.display_name}} {{.}} {{else}} {{$current_author}} {{end}}</a>

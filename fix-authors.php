@@ -56,9 +56,9 @@ foreach($authors as $author) {
 
 }
 
-echo "Print master \n";
+echo "Print master array containing author display-name and username mapping \n";
 var_dump($master);
-exit;
+
 /** File content search and replace **/
 
 // if($username == $display){
@@ -69,7 +69,7 @@ exit;
 // }
 
 //glob markdown files
-$files = glob('content/posts/*.md');
+$files = glob('content/pages/*.md');
 foreach($files as $file) {
   $content = file_get_contents($file);
   $result = preg_match_all('/(author:\s)(.*)/m',$content,$matches);
@@ -89,13 +89,20 @@ foreach($files as $file) {
   if($matches[2][0] == $new)
     continue;
 
-  $result = preg_replace('/(author:\s)(.*)/m', "author: $new",$content);
+  if($new != ''){
+    $result = preg_replace('/(author:\s)(.*)/m', "author: $new",$content);
+    file_put_contents($file, $result);
+    echo "\n Success: Updated File :: $file";
+  }  else {
+    echo "\n ERROR: no match found for $matches[2][0] . File :: $file";
+  }
+
   // $diff = xdiff_string_diff($content, $result, 1);
   // var_dump($diff);
   // var_dump($content);
   // var_dump($result);
 
-  file_put_contents($file, $result);
+
 }//end of foreach
 
 ?>
