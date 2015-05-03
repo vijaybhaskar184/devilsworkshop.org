@@ -26,7 +26,7 @@
     </div>
 
     {{ if ne .Section "" }}
-             <br/><a href="{{.Site.Params.GithubRepoUrl}}blob/source/content/{{ .File.Dir }}{{ .File.FileName }}" target="blank"><i class='fa fa-edit'></i> Edit this Page</a>
+             <br/><a href="{{.Site.Params.GithubRepoUrl}}/blob/source/content/{{ .FullFilePath }}" target="blank"><i class='fa fa-edit'></i> Edit this Page</a>
 
     {{ end }}
 

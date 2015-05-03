@@ -2,7 +2,7 @@
 {{if .Params}}
     {{ $current_author := index .Params.author 0}}
 
-    {{ $this_author := index .Site.Params.Devils $current_author }}
+    {{ $this_author := index .Site.Data.authors "adityakane"}}
 
     <div class="author-bio">
         {{with $this_author.avatar}}<img class="pull-left" src="{{.}}" alt="{{$current_author}}"/>{{end}}
@@ -17,7 +17,7 @@
 
 {{else }}
     {{ $current_author := .Title | lower}}
-    {{ $this_author := index .Site.Params.Devils $current_author }}
+    {{ $this_author := index .Site.Data.authors "adityakane"}}
 
     <div class="author-bio">
         {{with $this_author.avatar}}<img class="pull-left" src="{{.}}" alt="{{$current_author}}"/>{{end}}

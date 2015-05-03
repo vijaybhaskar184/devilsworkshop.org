@@ -53,7 +53,8 @@
         {{end}}
 
         {{ $current_author := index .Params.author 0}}
-        {{ $this_author := index .Site.Params.Devils $current_author }}
+        {{ $current_author }}
+        {{ $this_author := index .Site.Data.authors "adityakane"}}
 
         {{with $this_author.google_plus}}<link rel="author"              href="{{.}}"/>    {{end}}
         {{with $this_author.twitter}}    <meta name="twitter:creator"    content="{{.}}"/> {{end}}
@@ -93,3 +94,5 @@
 
   </script>
 </head>
+
+<body> <!-- will be closed in footer -->

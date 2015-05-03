@@ -1,22 +1,23 @@
-{{ template "theme/partials/head.html" . }}
-<body>
+<!-- homapge -->
 
-    <div class="content container">
+<!--include common header -->
+{{ partial "head.html" . }}
 
-    <h1>Welcome To Devils' Workshop! <i class='fa fa-smile-o'></i></h1>
-    <p>This blog is now hosted on Github and you can edit any post on this site!</p>
-    <p>Feel free to read a blog post below or check links in sidebar on left <i class='fa fa-hand-o-left'></i></p>
-    <hr/>
-    <h2>Recent Posts</h2>
+<div class="content container">
 
-    <ol class="posts">
-    {{ range first 10 .Data.Pages }}
-          {{ if eq .Section "post" }}
-              <li class="clear" ><a href="{{ .Permalink }}">{{ .Title }}</a><time class="pull-right post-list">{{ .Date.Format "Jan 2, 2006" }}</time></li>
-          {{end}}
+  <h1>Welcome To Devils' Workshop! <i class='fa fa-smile-o'></i></h1>
+  <p>This blog is now hosted on Github and you can edit any post on this site!</p>
+  <p>Feel free to read a blog post below or check links in sidebar on left <i class='fa fa-hand-o-left'></i></p>
+  <hr/>
+  <h2>Recent Posts</h2>
+
+  <ol class="posts">
+    {{ range first 10 (where .Data.Pages "Section" "posts") }}
+    <li class="clear"><a href="{{ .Permalink }}">{{ .Title }}</a>
+      <time class="pull-right post-list">{{ .Date.Format "Jan 2, 2006" }}</time>
+    </li>
     {{end}}
-    </ol>
+  </ol>
 
-  </div>
-{{ template "theme/partials/sidebar.html" . }}
-{{ template "theme/partials/footer.html" . }}
+</div>
+{{ template "theme/partials/sidebar.html" . }} {{ template "theme/partials/footer.html" . }}

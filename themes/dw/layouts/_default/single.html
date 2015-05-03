@@ -1,28 +1,18 @@
-{{ template "theme/partials/head.html" . }}
-<body>
+<!-- for single pages  -->
 
-{{ $current_author := index .Params.author 0}}
-{{ $this_author := index .Site.Params.Devils $current_author }}
+<!--include common header -->
+{{ partial "head.html" . }}
 
-    <div class="content container">
-        <div class="post">
-            <h1>{{ .Title }}</h1>
-            {{if eq .Section "post"}}
-                <span class="post-meta">{{ .Date.Format "Jan 2, 2006" }}  <em>by</em>
-                    <a href="/author/{{$current_author}}">{{ with $this_author.display_name}} {{.}} {{else}} {{$current_author}} {{end}}</a>
-                </span>
-            {{ end }}
+<div class="content container">
+  <div class="post">
+    <h1>{{ .Title }}</h1>
+    <pre>layout >> DEFAULT >> single.html</pre>
 
-            {{ .Content }}
-            {{if eq .Section "post"}}
-                <span class="post-meta">Tags: {{range .Params.tags}} <a href="/tags/{{. | urlize }}">{{.}}</a> {{end}}</span>
-                <span class="post-meta">Categories: {{range .Params.categories}} <a href="/categories/{{. | urlize }}">{{.}}</a>{{end}}</span>
-                <hr/>
-                {{ template "theme/partials/authorbio.html" . }}
-                <hr/>
-            {{end}}
-        </div>
-    </div>
+    {{ .Content }}
+  </div>
+</div>
 
-{{ template "theme/partials/sidebar.html" . }}
-{{ template "theme/partials/footer.html" . }}
+<!--include common sidebar -->
+{{ partial "sidebar.html" . }}
+<!--include common footer -->
+{{ partial "footer.html" . }}
