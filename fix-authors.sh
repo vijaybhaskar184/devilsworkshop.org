@@ -7,5 +7,5 @@ for author in data/authors/*.toml; do
     strn=$(grep display_name $author | cut -d'=' -f2 | cut -d'"' -f2)
     echo $strn
     # replace
-    find content -name "*.md" -type f -exec sed -i -e $'s/author:\ \"$strn\"\/\"$username\"/g' '{}' \;
+    find content -name "*.md" -type f -exec sed -i -e $'s/\"$strn\"/\"$username\"/g' '{}' \;
 done
