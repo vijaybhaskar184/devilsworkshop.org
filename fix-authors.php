@@ -32,6 +32,13 @@ foreach($authors as $author) {
       echo "after space: $username \n";
     }
 
+    //check username for underscore
+    if(strpos($username, "_")){
+      echo "before space: $username \n";
+      $username = str_replace("_", "", $username);
+      echo "after space: $username \n";
+    }
+
     //force lowercase
     if(preg_match('/[A-Z]/', $username)){
       echo "before lowercase: $username \n";
@@ -51,7 +58,7 @@ foreach($authors as $author) {
 
 echo "Print master \n";
 var_dump($master);
-
+exit;
 /** File content search and replace **/
 
 // if($username == $display){
