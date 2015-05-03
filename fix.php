@@ -24,26 +24,32 @@ foreach($authors as $author) {
 
     //rename author logic
     if ($oldusername != $username) {
-      rename($author,dirname($author) . '/' . $username . '.toml');
+      echo rename($author,dirname($author) . '/' . $username . '.toml');
     }
 
-    continue;
+    // continue;
     // echo $author ."\n";
     // echo $username."\n";
     // echo $display ."\n";
 
-    // if($username == $display){
+    if($username == $display){
+      echo "Replacement start \n";
       var_dump($author);
       var_dump($username);
       var_dump($display);
-    // }
+
+      $files = glob('content/posts/*.md');
+      foreach($files as $file) {
+        file_put_contents($file, str_replace('author: ' . $display, 'author: ' . $username, file_get_contents($file)));
+      }
+    }
 
 }
-exit;
-// replace
-// $files = glob('content/posts/*.md');
-foreach($files as $file) {
-    // echo $file . "\n";
-}
+// exit;
+// // replace
+// // $files = glob('content/posts/*.md');
+// foreach($files as $file) {
+//     // echo $file . "\n";
+// }
 
 ?>
