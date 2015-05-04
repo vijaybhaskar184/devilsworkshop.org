@@ -1,0 +1,16 @@
+<!-- Generte adsense slot bio -->
+
+{{ $author := $.Scratch.Get "authorname" }}
+
+{{ $this_author := index .Site.Data.authors $author}}
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- DW_RESPONSIVE -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="{{with $this_author.adsense_pub_id}} {{.}}{{else}}{{.Site.Params.adsense_client}}{{end}}"
+     data-ad-slot="{{with $this_author.adsense_slot_id}} {{.}}{{else}}{{.Site.Params.adsense_slot}}{{end}}"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>

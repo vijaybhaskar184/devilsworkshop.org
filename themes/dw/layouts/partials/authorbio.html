@@ -1,33 +1,18 @@
-<!-- FIXME: variable scope issue so poor code reuse here -->
-{{if .Params}}
-    {{ $current_author := index .Params.author 0}}
+<!-- Generte author bio -->
 
-    {{ $this_author := index .Site.Data.authors "adityakane"}}
+{{ $author := $.Scratch.Get "author_username" }}
+{{ $this_author := index .Site.Data.authors $author}}
 
-    <div class="author-bio">
-        {{with $this_author.avatar}}<img class="pull-left" src="{{.}}" alt="{{$current_author}}"/>{{end}}
-        <div class="social-nav pull-right">
-            {{with $this_author.facebook}}<a href="{{.}}"> <i class="fa fa-facebook-square"></i> </a>{{end }}
-            {{with $this_author.twitter}}<a href="{{.}}"> <i class="fa fa-twitter-square"></i> </a>{{end }}
-            {{with $this_author.github }}<a href="{{.}}"> <i class="fa fa-github-square"></i> </a>{{end}}
-        </div>
-        <h4> About {{ with $this_author.display_name}} {{.}} {{else}} {{$current_author}} {{end}} </h4>
-        <p>{{$this_author.bio}}</p>
+{{ $.Scratch.Set "author_display_name" $this_author.display_name }}
+
+<h2>About Author</h2>
+<div class="author-bio">
+    {{with $this_author.avatar}}<img class="pull-left" src="{{.}}" alt="{{$this_author.display_name}}"/>{{end}}
+    <div class="social-nav pull-right">
+        {{with $this_author.facebook}}<a href="{{.}}"> <i class="fa fa-facebook-square"></i> </a>{{end }}
+        {{with $this_author.twitter}}<a href="{{.}}"> <i class="fa fa-twitter-square"></i> </a>{{end }}
+        {{with $this_author.github }}<a href="{{.}}"> <i class="fa fa-github-square"></i> </a>{{end}}
     </div>
-
-{{else }}
-    {{ $current_author := .Title | lower}}
-    {{ $this_author := index .Site.Data.authors "adityakane"}}
-
-    <div class="author-bio">
-        {{with $this_author.avatar}}<img class="pull-left" src="{{.}}" alt="{{$current_author}}"/>{{end}}
-        <div class="social-nav pull-right">
-            {{with $this_author.facebook}}<a href="{{.}}"> <i class="fa fa-facebook-square"></i> </a>{{end }}
-            {{with $this_author.twitter}}<a href="{{.}}"> <i class="fa fa-twitter-square"></i> </a>{{end }}
-            {{with $this_author.github }}<a href="{{.}}"> <i class="fa fa-github-square"></i> </a>{{end}}
-        </div>
-        <h4> About {{ with $this_author.display_name}} {{.}} {{else}} {{$current_author}} {{end}} </h4>
-        <p>{{$this_author.bio}}</p>
-    </div>
-
-{{end}}
+    <h3> {{ with $this_author.display_name}} {{.}} {{else}} {{$author}} {{end}} </h3>
+    <p>{{$this_author.bio}}</p>
+</div>

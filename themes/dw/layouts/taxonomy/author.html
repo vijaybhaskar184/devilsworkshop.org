@@ -1,25 +1,24 @@
-<!-- homapge -->
-
 <!--include common header -->
 {{ partial "head.html" . }}
 
+{{ $current_author := .Title | lower}}
+{{ $.Scratch.Set "author_username" $current_author }}
 <div class="content container">
 
-  <h1>Welcome To Devils' Workshop! <i class='fa fa-smile-o'></i></h1>
-  <p>This blog is now hosted on Github and you can edit any post on this site!</p>
-  <p>Feel free to read a blog post below or check links in sidebar on left <i class='fa fa-hand-o-left'></i></p>
+  {{ partial "authorbio.html" . }}
 
-  <hr/>
-  <h2>Recent Posts</h2>
+  <hr class="clear" />
+
+  <h2>Posts by {{$.Scratch.Get "author_display_name"}}</h2>
 
   <ol class="posts">
-    {{ range first 10 (where .Data.Pages "Section" "posts") }}
+    {{ range .Data.Pages }}
     <li class="clear"><a href="{{ .Permalink }}">{{ .Title }}</a>
       <time class="pull-right post-list">{{ .Date.Format "Jan 2, 2006" }}</time>
     </li>
     {{end}}
   </ol>
-
+    
 </div>
 
 <!--include common sidebar -->

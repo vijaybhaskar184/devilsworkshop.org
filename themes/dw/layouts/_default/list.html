@@ -1,16 +1,19 @@
-{{ template "theme/partials/head.html" . }}
-<body>
+<!--include common header -->
+{{ partial "head.html" . }}
 
-  <div class="content container">
-        <h1>{{ .Title }}</h1>
 
+<div class="content container">
+
+  <h1>{{ .Title }}</h1>
   <ul class="posts">
-      {{ range .Data.Pages }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-      {{ end }}
+    {{ range .Data.Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
   </ul>
 
-  </div>
+</div>
 
-{{ template "theme/partials/sidebar.html" . }}
-{{ template "theme/partials/footer.html" . }}
+<!--include common sidebar -->
+{{ partial "sidebar.html" . }}
+<!--include common footer -->
+{{ partial "footer.html" . }}
