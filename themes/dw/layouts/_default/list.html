@@ -5,6 +5,7 @@
 <div class="content container">
 
   <h1>{{ .Title }}</h1>
+  {{ partial "adsense.html" . }}  
   <ul class="posts">
     {{ range .Data.Pages }}
     <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>

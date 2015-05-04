@@ -4,8 +4,8 @@ title = "Devils' Workshop"
 #theme = "dw"
 
 [permalinks]
-page = "/:slug/"
-post = "/:slug/"
+pages = "/:slug/"
+posts = "/:slug/"
 
 [taxonomies]
 category = "categories"
