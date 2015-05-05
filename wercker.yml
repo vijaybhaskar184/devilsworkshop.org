@@ -5,6 +5,25 @@ build:
         version: 0.13
         theme: dw
 
+deploy:
+    steps:
+    - install-packages:
+        packages: sshpass rsync
+
+    - script:
+        name: deploy books docs to cdn
+        code: rsync -avz --progress --rsh="sshpass -p $PASS ssh -l USER -o StrictHostKeyChecking=no" public/* $USER@$HOST:/www/
+
+
+    after-steps:
+    - script:
+        name: purge cdn
+        code: curl --data "cdn_id=$CDNID&login=$APIUSER&passwd=$APIPASS" https://client.cdn77.com/api/v2.0/data/purge-all
+
+
+    # - 1syo/gitter-notify@0.0.1:
+    #     token: $GITTER_TOKEN
+
 # deploy:
 #   steps:
 #     - lukevivier/gh-pages@0.2.1:
@@ -12,10 +31,10 @@ build:
 #         domain: devilsworkshop.org
 #         basedir: public
 
-deploy:
-    steps:
-        - s3sync:
-            key-id: $AWS_KEY
-            key-secret: $AWS_SECRET
-            bucket-url: $AWS_BUCKET
-            source-dir: public
+# deploy:
+#     steps:
+#         - s3sync:
+#             key-id: $AWS_KEY
+#             key-secret: $AWS_SECRET
+#             bucket-url: $AWS_BUCKET
+#             source-dir: public
