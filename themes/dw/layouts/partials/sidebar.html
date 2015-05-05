@@ -26,9 +26,12 @@
     {{end}}
     </div>
 
-    {{ if ne .Section "" }}
-             <br/><a href="{{.Site.Params.GithubRepoUrl}}/blob/source/content/{{ .FullFilePath }}" target="blank"><i class='fa fa-edit'></i> Edit this Page</a>
-
+    {{ if .IsPage }}
+      {{ $File := .File }}
+      {{ $GitRepo := .Site.Params.github_repo }}
+      {{with $File.Path }}
+      <br/><a href="{{$GitRepo}}edit/master/content/{{ $File.Dir }}{{ $File.LogicalName }}" target="blank"><i class='fa fa-edit'></i> Edit this Page</a>
+      {{end}}
     {{ end }}
 
     <div class="footer">
