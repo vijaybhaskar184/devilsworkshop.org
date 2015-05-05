@@ -22,7 +22,7 @@ deploy:
 
     after-steps:
     - seigyo/cloudflare-purge:
-        api: $CF_KEY
+        api: $CF_API
         email: rahul.bansal@rtcamp.com
         domain: devilsworkshop.org
 
