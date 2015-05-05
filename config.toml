@@ -1,7 +1,6 @@
-baseurl = "http://devilsworksho.org/"
+baseurl = "http://devilsworkshop.org/"
 title = "Devils' Workshop"
 theme = "dw"
-canonifyurls = false
 
 [permalinks]
 pages = "/:slug/"
