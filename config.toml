@@ -21,10 +21,10 @@ url = "/about/"
 name = "Authors"
 pre = "<i class='fa fa-fw fa-pecil'></i>"
 url = "/author/"
-[[menu.primary]]
-name = "Writing for DW"
-pre = "<i class='fa fa-fw fa-pecil'></i>"
-url = "/guest-bloggers/"
+# [[menu.primary]]
+# name = "Writing for DW"
+# pre = "<i class='fa fa-fw fa-pecil'></i>"
+# url = "/guest-bloggers/"
 [[menu.primary]]
 name = "Advertise"
 pre = "<i class='fa fa-fw fa-bullhorn'></i>"
