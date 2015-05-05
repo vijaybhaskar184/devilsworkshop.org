@@ -20,6 +20,11 @@ deploy:
         name: purge cdn
         code: curl --data "cdn_id=$CDNID&login=$APIUSER&passwd=$APIPASS" https://client.cdn77.com/api/v2.0/data/purge-all
 
+    after-steps:
+    - seigyo/cloudflare-purge:
+        api: $CF_KEY
+        email: rahul.bansal@rtcamp.com
+        domain: devilsworkshop.org
 
     # - 1syo/gitter-notify@0.0.1:
     #     token: $GITTER_TOKEN
