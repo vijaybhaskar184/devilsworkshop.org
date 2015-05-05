@@ -5,17 +5,17 @@ build:
         version: 0.13
         theme: dw
 
-deploy:
-  steps:
-    - lukevivier/gh-pages@0.2.1:
-        token: $GIT_TOKEN
-        domain: devilsworkshop.org
-        basedir: public
-
 # deploy:
-#     steps:
-#         - s3sync:
-#             key-id: $AWS_KEY
-#             key-secret: $AWS_SECRET
-#             bucket-url: $AWS_BUCKET
-#             source-dir: public
+#   steps:
+#     - lukevivier/gh-pages@0.2.1:
+#         token: $GIT_TOKEN
+#         domain: devilsworkshop.org
+#         basedir: public
+
+deploy:
+    steps:
+        - s3sync:
+            key-id: $AWS_KEY
+            key-secret: $AWS_SECRET
+            bucket-url: $AWS_BUCKET
+            source-dir: public
