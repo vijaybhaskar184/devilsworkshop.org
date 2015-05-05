@@ -1,7 +1,7 @@
 baseurl = "http://devilsworksho.org/"
 MetaDataFormat = "yaml"
 title = "Devils' Workshop"
-#theme = "dw"
+theme = "dw"
 
 [permalinks]
 pages = "/:slug/"
