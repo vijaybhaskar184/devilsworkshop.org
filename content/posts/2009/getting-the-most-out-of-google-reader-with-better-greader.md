@@ -1,0 +1,21 @@
+---
+title: Getting the most out of Google Reader with Better Greader
+author: deepakjain
+date: 2009-01-10
+url: /getting-the-most-out-of-google-reader-with-better-greader/
+views:
+  - 37
+categories:
+  - Tips
+tags:
+  - add-ons
+  - Google
+  - Google Reader
+---
+<a href="http://reader.google.com" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://reader.google.com', '']);" ><img class="wp-image-53414" style="border-right: 0px;border-top: 0px;margin: 5px 0px 0px 10px;border-left: 0px;border-bottom: 0px" height="167" alt="google_reader_logo" src="http://cdn.devilsworkshop.org/files/2009/01/google-reader-logo.png" width="214" align="right" border="0" /></a> About a month ago I used to read all my feeds using desktop based reader – <a href="http://www.feedreader.com/" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.feedreader.com/', 'feedreader']);" >feedreader</a>, that is too simple and easy to use. Many of my friends advised me to migrate to Google based online reader – <a href="http://reader.google.com" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://reader.google.com', 'Google Reader']);" >Google Reader</a> but I don’t know what made me stick up with Feedreader for long. But later I realized that a web savvy specially a blogger’s life is really unbelievable to exist without anything as good as Google Reader. 😉 Sometime later I will explain you on what features and advantages of Google reader attracted me. For the time being, I would like to let you know about a good (actually very good 😉 ) firefox extension meant only to improve the way you use Google reader.
+
+<img style="border-right: 0px;border-top: 0px;margin: 0px 5px 0px 0px;border-left: 0px;border-bottom: 0px" height="259" alt="favicons_greader" src="http://cdn.devilsworkshop.org/files/2009/01/favicons-greader.png" width="155" align="left" border="0" /> This firefox extension named <a href="https://addons.mozilla.org/en-US/firefox/addon/6424" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://addons.mozilla.org/en-US/firefox/addon/6424', 'Better Greader']);" >Better Greader</a>, will help you customize the skins, looks, feel, and more more thing in Google Reader. Actually the add-on has been compiled by Gina Tapani of <a href="http://lifehacker.com/software/exclusive-lifehacker-download/trick-out-google-reader-with-better-greader-262020.php" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://lifehacker.com/software/exclusive-lifehacker-download/trick-out-google-reader-with-better-greader-262020.php', 'Lifehacker']);" >Lifehacker</a> using the various user scripts developed by individual authors. Some of the advantage of using this add-on are: as seen in the image, you can view the favicons of the feeds added into Google reader, customize the are of reading pane, bypass the feed reader homepage while adding new feeds, etc. 
+
+If you want to know more about this add-on, all I would say is, just install this <a href="https://addons.mozilla.org/en-US/firefox/addon/6424" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://addons.mozilla.org/en-US/firefox/addon/6424', 'firefox add-on']);" >firefox add-on</a> or visit <a href="http://lifehacker.com/software/exclusive-lifehacker-download/trick-out-google-reader-with-better-greader-262020.php" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://lifehacker.com/software/exclusive-lifehacker-download/trick-out-google-reader-with-better-greader-262020.php', 'Lifehacker']);" >Lifehacker</a> page where detailed instruction on its usage and features has been mentioned.
+
+Links: <a href="https://addons.mozilla.org/en-US/firefox/addon/6424" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://addons.mozilla.org/en-US/firefox/addon/6424', 'Better Greader Download']);" >Better Greader Download</a> | <a href="http://lifehacker.com/software/exclusive-lifehacker-download/trick-out-google-reader-with-better-greader-262020.php" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://lifehacker.com/software/exclusive-lifehacker-download/trick-out-google-reader-with-better-greader-262020.php', 'Detailed usage and features']);" >Detailed usage and features</a>
