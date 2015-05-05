@@ -11,7 +11,7 @@ deploy:
         packages: sshpass rsync
 
     - script:
-        name: deploy books docs to cdn
+        name: deploy blog to cdn
         code: rsync -avz --progress --rsh="sshpass -p $PASS ssh -l USER -o StrictHostKeyChecking=no" public/* $USER@$HOST:/www/
 
 
