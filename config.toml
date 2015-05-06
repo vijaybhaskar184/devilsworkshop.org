@@ -11,8 +11,6 @@ category = "categories"
 tag = "tags"
 author = "author"
 
-disqusShortname = "devilsworkshoporg"
-
 [[menu.primary]]
 name = "About DW"
 pre = "<i class='fa fa-fw fa-user'></i>"
@@ -48,3 +46,4 @@ googleplus_publisher = "https://plus.google.com/118442670704550181017/"
 twitter_handle = "@devils_workshop"
 adsense_client="ca-pub-1265648112623358"
 adsense_slot="5900735015"
+disqusShortname = "devilsworkshoporg"
