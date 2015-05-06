@@ -43,7 +43,11 @@ If you are aware of world of [static site generators](http://www.staticgen.com/)
 
 Jekyll is most famous so we tried Jekyll first. But Jekyll and other static site generators simply failed to built this huge blog (approx 5000 posts + pages) or took forever!
 
-Only hugo can build this giant blog in less than 10 seconds. Even after theme customizations and adding features like [adsense-revenue sharing](http://devilsworkshop.org/posts-adsense-ads-revenue-sharing-program/)! Yep. We still have adsense-revenue sharing and all old post authors will see their ads on their old posts. 
+Only hugo can build this giant blog in less than 10 seconds. 
+
+![devilsworkshop hugo build time](https://cloud.githubusercontent.com/assets/4115/7499301/54007a3a-f444-11e4-86d1-1c3b97d69190.png)
+
+Even after theme customizations and adding features like [adsense-revenue sharing](http://devilsworkshop.org/posts-adsense-ads-revenue-sharing-program/)! Yep. We still have adsense-revenue sharing and all old post authors will see their ads on their old posts. 
 
 With hugo's datafiles feature we managed to maintain not only adsense info but also other profile details for each author. If you were an author on DW, you can update your profile from by editing a plain-text toml file [here](https://github.com/rtCamp/devilsworkshop.org/tree/master/data/authors)!
 
