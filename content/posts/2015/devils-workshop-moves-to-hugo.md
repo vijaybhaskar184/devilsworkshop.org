@@ -23,19 +23,19 @@ Yesterday, we moved Devils' Workshop from our beloved [WordPress](http://wordpre
 
 By moving to Hugo, or a static site generator for that matter, we don't need to maintain WordPress and a server for this site anymore. 
 
-Well managing an extra site at [rtCamp](https://rtcamp.com/) may not sound like a big deal, aftrall rtCamp is a WordPress company who is behind incridible [EasyEngine](https://rtcamp.com/easyengine).
+Well managing an extra site at [rtCamp](https://rtcamp.com/) may not sound like a big deal, afterall rtCamp is a WordPress company which is behind the incredible [EasyEngine](https://rtcamp.com/easyengine).
 
-But at rtCamp we are trying to sharpen our focus to key offering and managing a blog network is not on the list!
+But at rtCamp we are trying to sharpen our focus and managing a blog network is not on the list!
 
 So by moving to static site generator, we can keep entire blog, content + theme in a [github repo](https://github.com/rtCamp/devilsworkshop.org) and host it on a CDN or plain simple HTML hosting. We are hosting DW content on Amazon AWS and CDN77 as of now.
 
 There are more beneifts like:
 
 1. No spam/security issues
-2. Offlie editing - this wil help me write more often. So you may see some posts on this blog in future again!
+2. Offline editing - this wil help me write more often. So you may see some posts on this blog in future again!
 3. Writing in markdown - most of my techie notes stored on localhost are in markdown format only.
 4. Any future "guest posts" will need to come via Github pull request (I hope spammners are not good at sending pull requests)
-5. As complete site is static and on CDN, load-time is very less. Google might love us for this but we are not caring anymore! :P
+5. As complete site is static and on CDN, load-time is very less. Google might love us for this but we are not really caring anymore! :P
 
 
 ## Why Choose Hugo?
