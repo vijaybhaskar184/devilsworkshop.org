@@ -14,21 +14,13 @@ author = "author"
 # disqusShortname = "rahul286"
 
 [[menu.primary]]
-name = "About Us"
+name = "About DW"
 pre = "<i class='fa fa-fw fa-user'></i>"
 url = "/about/"
 [[menu.primary]]
 name = "Authors"
 pre = "<i class='fa fa-fw fa-pecil'></i>"
 url = "/author/"
-# [[menu.primary]]
-# name = "Writing for DW"
-# pre = "<i class='fa fa-fw fa-pecil'></i>"
-# url = "/guest-bloggers/"
-[[menu.primary]]
-name = "Advertise"
-pre = "<i class='fa fa-fw fa-bullhorn'></i>"
-url = "/advertise/"
 [[menu.primary]]
 name = "Contact Us"
 pre = "<i class='fa fa-fw fa-envelope-o'></i>"
