@@ -11,7 +11,7 @@ category = "categories"
 tag = "tags"
 author = "author"
 
-# disqusShortname = "rahul286"
+disqusShortname = "devilsworkshoporg"
 
 [[menu.primary]]
 name = "About DW"
