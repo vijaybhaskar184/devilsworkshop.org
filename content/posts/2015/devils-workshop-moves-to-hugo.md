@@ -3,7 +3,7 @@ title: Devils' Workshop goes static & geekish!
 author: rahul286
 date: 2015-05-06
 excerpt: Devils Workshop moves away from WordPress to Hugo Static Site Generator. Reasons and analysis.
-url: /devils-workshop-static-geekish/
+url: /devils-workshop-hugo-geekish/
 categories:
   - Editorial
 tags:
