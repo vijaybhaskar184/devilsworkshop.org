@@ -14,7 +14,7 @@ tags:
 ---
 Center for Railway Information Services (CRIS) has launched a Windows 8 app that keeps the users posted about the Indian trains status. The app is available for Windows 8 desktop and Windows Phone 8.
 
-This National Train Enquiry System (NTES) app comes packed with many useful features that will be helpful for the Indian rail commuters. It helps the users the track the status of a train on motion, search for trains between stations, cancelled, diverted, rescheduled trains, arrival and departure time of trains and more.
+This National Train Enquiry System (NTES) app comes packed with many useful features that will be helpful for the Indian rail commuters. It helps the users the track the status of a train on motion, train schedule, search for trains between stations, cancelled, diverted, rescheduled trains, arrival and departure time of trains and more.
 
 [<img class="aligncenter size-full" title="NTES.png" alt="image" src="http://cdn.devilsworkshop.org/files/2014/04/wpid-ntes.png" />][1]
 
